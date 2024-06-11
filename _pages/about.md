@@ -6,7 +6,7 @@ subtitle: <a href='https://engineering.purdue.edu/gomez/'>Purdue University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_Mario.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Regenstrief Center for Healthcare Engineering</p>
