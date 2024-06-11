@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://engineering.purdue.edu/gomez/people'>Purdue University</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://engineering.purdue.edu/gomez/'>Purdue University</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -11,15 +11,24 @@ profile:
   more_info: >
     <p>Regenstrief Center for Healthcare Engineering</p>
     <p>203 S Martin Jischke Dr</p>
-    <p>West Lafayette, IN 47906/p>
+    <p>West Lafayette, IN 47906</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Research Scientist in the Regenstrief Center for Healthcare Engineering at Purdue University working with [Prof. Pavlos Vlachos](https://vlachosresearch.org/pub-author/pavlos-p-vlachos/) and [Prof. Hector Gomez](https://engineering.purdue.edu/gomez/hectorgomez). My research interests include computational mechanics, metal plasticity, poroelasticity, isogeometric analysis and soft tissue biomechanics. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to my most up-to-date resume: [PDF](https://drive.google.com/file/d/1zsbZJK2wj-If0ioLM1KBdSh1yfPi8ehN/view?usp=drive_linkPDF)
+
+My most current publication information is reflected on the following links:
+
+- [Google Scholar](https://scholar.google.com/citations?user=ykpA5ZsAAAAJ&hl=en) profile 
+
+- ResearchGate profile
+
+- [ORCID](https://orcid.org/0000-0003-1168-2249)
+
+- [LinkedIn](https://www.linkedin.com/in/mario-de-lucio/) 
