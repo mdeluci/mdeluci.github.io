@@ -297,8 +297,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [de Lucio]
-  first_name: [Mario]
+  last_name: de Lucio
+  first_name: Mario
 
   style: apa
   locale: en
@@ -306,8 +306,6 @@ scholar:
   collections:
     - my_papers:
         bibliography: papers.bib
-    - external_references:
-        bibliography: references.bib
 
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
