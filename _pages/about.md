@@ -8,10 +8,7 @@ profile:
   align: right
   image: prof_pic_Mario.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Regenstrief Center for Healthcare Engineering</p>
-    <p>203 S Martin Jischke Dr</p>
-    <p>West Lafayette, IN 47906</p>
+  more_info: 
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
