@@ -1,7 +1,117 @@
 ---
 ---
 
+---
+---
+
 @string{aps = {American Physical Society,}}
+
+% Add new ones to the top of the list
+
+@article{tacGenerativeHyperelasticityPhysicsinformed2024,
+  title = {Generative Hyperelasticity with Physics-Informed Probabilistic Diffusion Fields},
+  author = {Ta{\c c}, Vahidullah and Rausch, Manuel K. and Bilionis, Ilias and Sahli Costabal, Francisco and Tepole, Adrian Buganza},
+  year = {2024},
+  month = may,
+  journal = {Engineering with Computers},
+  issn = {0177-0667, 1435-5663},
+  doi = {10.1007/s00366-024-01984-2},
+  urldate = {2024-05-20},
+  langid = {english},
+  #pdf={diffusion.pdf},
+  #preview={diffusion.png},
+  bibtex_show={true},
+}
+
+
+
+@incollection{tac18ModelerGuide2024,
+  title = {A Modeler׳s Guide to Soft Tissue Mechanics},
+  booktitle = {Comprehensive Mechanics of Materials (First Edition)},
+  author = {Tac, Vahidullah and Tepole, Adrian B.},
+  editor = {Silberschmidt, Vadim},
+  year = {2024},
+  month = jan,
+  pages = {432--451},
+  publisher = {Elsevier},
+  address = {Oxford},
+  doi = {10.1016/B978-0-323-90646-3.00053-8},
+  #pdf={modelers.pdf},
+  bibtex_show={true},
+  #preview={book.png},
+}
+
+
+@article{TAC2023116046,
+  title = {Data-driven anisotropic finite viscoelasticity using neural ordinary differential equations},
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {411},
+  pages = {116046},
+  year = {2023},
+  issn = {0045-7825},
+  doi = {https://doi.org/10.1016/j.cma.2023.116046},
+  url = {https://www.sciencedirect.com/science/article/pii/S0045782523001706},
+  author = {Vahidullah Taç and Manuel K. Rausch and Francisco {Sahli Costabal} and Adrian Buganza Tepole},
+  keywords = {Viscoelasticity, Neural ordinary differential equations, Data-driven mechanics, Tissue mechanics, Nonlinear mechanics, Physics-informed machine learning},
+  abstract = {We develop a fully data-driven model of anisotropic finite viscoelasticity using neural ordinary differential equations as building blocks. We replace the Helmholtz free energy function and the dissipation potential with data-driven functions that a priori satisfy physics-based constraints such as objectivity and the second law of thermodynamics. Our approach enables modeling viscoelastic behavior of materials under arbitrary loads in three-dimensions even with large deformations and large deviations from the thermodynamic equilibrium. The data-driven nature of the governing potentials endows the model with much needed flexibility in modeling the viscoelastic behavior of a wide class of materials. We train the model using stress–strain data from biological and synthetic materials including human brain tissue, blood clots, natural rubber and human myocardium and show that the data-driven method outperforms traditional, closed-form models of viscoelasticity.},
+  bibtex_show={true},
+  #preview={nvisco.png},
+  #pdf={nvisco.pdf},
+  selected={true},
+}
+
+@article{tacBenchmarkingPhysicsinformedFrameworks2023,
+  title = {Benchmarking Physics-Informed Frameworks for Data-Driven Hyperelasticity},
+  author = {Taç, Vahidullah and Linka, Kevin and {Sahli-Costabal}, Francisco and Kuhl, Ellen and Tepole, Adrian Buganza},
+  year = {2023},
+  month = jun,
+  journal = {Computational Mechanics},
+  issn = {0178-7675, 1432-0924},
+  doi = {10.1007/s00466-023-02355-2},
+  urldate = {2023-06-04},
+  langid = {english},
+  url = {https://link.springer.com/article/10.1007/s00466-023-02355-2},
+  #preview={benchmark2.png},
+  #pdf={benchmark_CM.pdf},
+  abstract = {Data-driven methods have changed the way we understand and model materials. However, while providing unmatched flexibility, these methods have limitations such as reduced capacity to extrapolate, overfitting, and violation of physics constraints. Recently, frameworks that automatically satisfy these requirements have been proposed. Here we review, extend, and compare three promising data-driven methods: Constitutive Artificial Neural Networks (CANN), Input Convex Neural Networks (ICNN), and Neural Ordinary Differential Equations (NODE). Our formulation expands the strain energy potentials in terms of sums of convex non-decreasing functions of invariants and linear combinations of these. The expansion of the energy is shared across all three methods and guarantees the automatic satisfaction of objectivity, material symmetries, and polyconvexity, essential within the context of hyperelasticity. To benchmark the methods, we train them against rubber and skin stress–strain data. All three approaches capture the data almost perfectly, without overfitting, and have some capacity to extrapolate. This is in contrast to unconstrained neural networks which fail to make physically meaningful predictions outside the training range. Interestingly, the methods find different energy functions even though the prediction on the stress data is nearly identical. The most notable differences are observed in the second derivatives, which could impact performance of numerical solvers. On the rich data used in these benchmarks, the models show the anticipated trade-off between number of parameters and accuracy. Overall, CANN, ICNN and NODE retain the flexibility and accuracy of other data-driven methods without compromising on the physics. These methods are ideal options to model arbitrary hyperelastic material behavior.},
+}
+
+@article{tacDatadrivenTissueMechanics2022,
+  title = {Data-Driven Tissue Mechanics with Polyconvex Neural Ordinary Differential Equations},
+  author = {Tac, Vahidullah and Costabal, Francisco Sahli and Tepole, Adrian B},
+  abstract = {Data-driven methods are becoming an essential part of computational mechanics due to their advantages over traditional material modeling. Deep neural networks are able to learn complex material response without the constraints of closed-form models. However, data-driven approaches do not a priori satisfy physics-based mathematical requirements such as polyconvexity, a condition needed for the existence of minimizers for boundary value problems in elasticity. In this study, we use a recent class of neural networks, neural ordinary differential equations (N-ODEs), to develop data-driven material models that automatically satisfy polyconvexity of the strain energy. We take advantage of the properties of ordinary differential equations to create monotonic functions that approximate the derivatives of the strain energy with respect to deformation invariants. The monotonicity of the derivatives guarantees the convexity of the energy. The N-ODE material model is able to capture synthetic data generated from closed-form material models, and it outperforms conventional models when tested against experimental data on skin, a highly nonlinear and anisotropic material. We also showcase the use of the N-ODE material model in finite element simulations of reconstructive surgery. The framework is general and can be used to model a large class of materials, especially biological soft tissues. We therefore expect our methodology to further enable data-driven methods in computational mechanics.},
+  year = {2022},
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {398},
+  pages = {18},
+  doi = {10.1016/j.cma.2022.115248},
+  langid = {english},
+  bibtex_show={true},
+  #preview={cranium.png},
+  #pdf={node.pdf},
+  url = {https://www.sciencedirect.com/science/article/pii/S0045782522003838},
+}
+
+@article{tacDatadrivenModelingMechanical2022,
+  title = {Data-Driven Modeling of the Mechanical Behavior of Anisotropic Soft Biological Tissue},
+  author = {Tac, Vahidullah and Sree, Vivek D. and Rausch, Manuel K. and Tepole, Adrian B.},
+  abstract = {Closed-form constitutive models are currently the standard approach for describing soft tissues’ mechanical behavior. However, there are inherent pitfalls to this approach. For example, explicit functional forms can lead to poor fits, non-uniqueness of those fits, and exaggerated sensitivity to parameters. Here we overcome some of these problems by designing deep neural networks (DNN) to replace such explicit expert models. One challenge of using DNNs in this context is the enforcement of stress-objectivity. We meet this challenge by training our DNN to predict the strain energy and its derivatives from (pseudo)-invariants. Thereby, we can also enforce polyconvexity through physics-informed constraints on the strain-energy and its derivatives in the loss function. Direct prediction of both energy and derivative functions also enables the computation of the elasticity tensor needed for a finite element implementation. Then, we showcase the DNN’s ability by learning the anisotropic mechanical behavior of porcine and murine skin from biaxial test data. Through this example, we find that a multi-fidelity scheme that combines high fidelity experimental data with a low fidelity analytical approximation yields the best performance. Finally, we conduct finite element simulations of tissue expansion using our DNN model to illustrate the potential of data-driven approaches such as ours in medical device design. Also, we expect that the open data and software stemming from this work will broaden the use of data-driven constitutive models in soft tissue mechanics.},
+  year = {2022},
+  month = sep,
+  journal = {Engineering with Computers},
+  volume = {38},
+  number = {5},
+  pages = {4167--4182},
+  issn = {0177-0667, 1435-5663},
+  doi = {10.1007/s00366-022-01733-3},
+  langid = {english},
+  bibtex_show={true},
+  #preview={.png},
+  #pdf={nnmat.pdf},
+  url = {https://link.springer.com/article/10.1007/s00366-022-01733-3},
+}
+
+
 
 @article{lengPredictingMechanicalProperties2021,
   title = {Predicting the Mechanical Properties of Biopolymer Gels Using Neural Networks Trained on Discrete Fiber Network Data},
@@ -17,5 +127,49 @@
   langid = {english},
   keywords = {Data-driven,NN},
   bibtex_show={true},
+  preview={pol_gel.png},
+  pdf={biopolymer_gels.pdf},
   url = {https://linkinghub.elsevier.com/retrieve/pii/S0045782521004916},
+}
+
+
+
+@article{tacMicromechanicalModellingCarbon2019,
+  title = {Micromechanical Modelling of Carbon Nanotube Reinforced Composite Materials with a Functionally Graded Interphase},
+  author = {Taç, Vahidullah and G{\"u}rses, Ercan},
+  abstract = {This paper introduces a new method of determining the mechanical properties of carbon nanotube-polymer composites using a multi-inclusion micromechanical model with functionally graded phases. The nanocomposite was divided into four regions of distinct mechanical properties; the carbon nanotube, the interface, the interphase and bulk polymer. The carbon nanotube and the interface were later combined into one effective fiber using a finite element model. The interphase was modelled in a functionally graded manner to reflect the true nature of the portion of the polymer surrounding the carbon nanotube. The three phases of effective fiber, interphase and bulk polymer were then used in the micromechanical model to arrive at the mechanical properties of the nanocomposite. An orientation averaging integration was then applied on the results to better reflect macroscopic response of nanocomposites with randomly oriented nanotubes. The results were compared to other numerical and experimental findings in the literature.},
+  year = {2019},
+  month = dec,
+  journal = {Journal of Composite Materials},
+  volume = {53},
+  number = {28-30},
+  pages = {4337--4348},
+  issn = {0021-9983, 1530-793X},
+  doi = {10.1177/0021998319857126},
+  langid = {english},
+  bibtex_show={true},
+  #preview={cnt_egg.png},
+  #pdf={micromech.pdf},
+  url = {http://journals.sagepub.com/doi/10.1177/0021998319857126},
+}
+
+
+
+
+@article{tajDynamicFrictionalSliding2018,
+  title = {Dynamic {{Frictional Sliding Modes}} between {{Two Homogenous Interfaces}}},
+  author = {Taj, Waheedullah and Coker, Demirkan},
+  year = {2018},
+  month = jan,
+  journal = {IOP Conference Series: Materials Science and Engineering},
+  volume = {295},
+  number = {1},
+  pages = {012001},
+  issn = {1757-8981, 1757-899X},
+  doi = {10.1088/1757-899X/295/1/012001},
+  langid = {english},
+  bibtex_show={true},
+  #preview={shear_wave.png},
+  #pdf={friction.pdf},
+  url = {https://iopscience.iop.org/article/10.1088/1757-899X/295/1/012001/meta},
 }
