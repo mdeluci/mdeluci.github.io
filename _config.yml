@@ -297,16 +297,14 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: de Lucio
-  first_name: Mario
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en
 
-  collections:
-    - my_papers:
-        bibliography: papers.bib
-
+  source: /_bibliography/
+  bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -317,7 +315,6 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
-  details_layout: bibtex.html
   details_link: Details
 
   query: "@*"
@@ -328,7 +325,8 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: true # Google Scholar badge (https://scholar.google.com/citations?user=ykpA5ZsAAAAJ&hl=en)
+
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
