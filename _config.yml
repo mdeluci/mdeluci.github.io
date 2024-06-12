@@ -297,8 +297,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Mario]
+  first_name: [de Lucio]
 
   style: apa
   locale: en
@@ -315,11 +315,12 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
+  details_layout: bibtex.html
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
+  # group_by: year
+  # group_order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
