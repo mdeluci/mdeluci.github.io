@@ -3,17 +3,19 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{COSTAS2020103966,
-  title = {Testing and simulation of additively manufactured AlSi10Mg components under quasi-static loading},
-  journal = {European Journal of Mechanics - A/Solids},
-  volume = {81},
-  pages = {103966},
-  year = {2020},
-  issn = {0997-7538},
-  doi = {https://doi.org/10.1016/j.euromechsol.2020.103966},
-  url = {https://www.sciencedirect.com/science/article/pii/S0997753819306758},
-  author = {Miguel Costas and David Morin and Mario {de Lucio} and Magnus Langseth},
-  keywords = {Additive manufacturing, AlSi10Mg, 3D-printed aluminium, Lateral crushing, Finite elements},
-  abstract = {An experimental and numerical study on the quasi-static loading of AlSi10Mg square boxes produced by selective laser melting (SLM) was carried out. The goal was to evaluate the applicability of common finite element modelling techniques to 3D-printed parts at material and component scales, under large deformations and fracture. Uniaxial tensile specimens were extracted and tested at different orientations, and a hypo-elastic–plastic model with Voce hardening and Cockcroft–Latham’s fracture criterion was calibrated against the experimental results. The boxes were crushed laterally until failure using a spherical actuator. The considered material and finite element models were proved well suited for the prediction of the structural response of the additively manufactured components in the studied scenario.}
+@article{lengPredictingMechanicalProperties2021,
+  title = {Predicting the Mechanical Properties of Biopolymer Gels Using Neural Networks Trained on Discrete Fiber Network Data},
+  author = {Leng, Yue and Tac, Vahidullah and Calve, Sarah and Tepole, Adrian B.},
+  abstract = {Biopolymer gels, such as those made out of fibrin or collagen, are widely used in tissue engineering applications and biomedical research. Moreover, fibrin naturally assembles into gels in vivo during wound healing and thrombus formation. The macroscale properties of fibrin and other biopolymer gels are dictated by the response of a microscale fiber network. Hence, accurate description of biopolymer gels can be achieved using representative volume elements (RVE) that explicitly model the discrete fiber networks of the microscale. These RVE models, however, cannot be efficiently used to model the macroscale due to the challenges and computational demands of multiscale coupling. Here, we propose the use of an artificial, fully connected neural network (FCNN) to efficiently capture the behavior of the RVE models. The FCNN was trained on 1100 fiber networks subjected to 121 biaxial deformations. The stress data from the RVE, together with the total energy on the fibers and the condition of incompressibility of the surrounding matrix, were used to determine the derivatives of an unknown strain energy function with respect to the deformation invariants. During training, the loss function was modified to ensure convexity of the strain energy function and symmetry of its Hessian. A general FCNN model was coded into a user material subroutine (UMAT) in the software Abaqus. The UMAT implementation takes in the structure and parameters of an arbitrary FCNN as material parameters from the input file. The inputs to the FCNN include the first two isochoric invariants of the deformation. The FCNN outputs the derivatives of the strain energy with respect to the isochoric invariants. In this work, the FCNN trained on the discrete fiber network data was used in finite element simulations of biopolymer gels using our UMAT. We anticipate that this work will enable further integration of machine learning tools with computational mechanics. It will also improve computational modeling of biological materials characterized by a multiscale structure.},
+  year = {2021},
+  month = dec,
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {387},
+  pages = {114160},
+  issn = {00457825},
+  doi = {10.1016/j.cma.2021.114160},
+  langid = {english},
+  keywords = {Data-driven,NN},
   bibtex_show={true},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0045782521004916},
 }
