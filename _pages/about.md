@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://engineering.purdue.edu/gomez/'>Purdue University</a>. Address. Contacts. Moto. Etc.
+subtitle: /
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I am a Research Scientist in the Regenstrief Center for Healthcare Engineering at Purdue University working with [Prof. Pavlos Vlachos](https://vlachosresearch.org/pub-author/pavlos-p-vlachos/) and [Prof. Hector Gomez](https://engineering.purdue.edu/gomez/hectorgomez). My research interests include computational mechanics, metal plasticity, poroelasticity, isogeometric analysis and soft tissue biomechanics. 
+I am a Research Scientist in the [Regenstrief Center for Healthcare Engineering](https://www.purdue.edu/research/rche/) at Purdue University working with [Prof. Pavlos Vlachos](https://vlachosresearch.org/pub-author/pavlos-p-vlachos/) and [Prof. Hector Gomez](https://engineering.purdue.edu/gomez/hectorgomez). I developed high-fidelity computational models to solve real-world problems in civil, mechanical, and biomedical engineering. My research interests include computational mechanics, poromechanics, soft tissue biomechanics, and transport phenomena. 
 
 Link to my most up-to-date resume: [PDF](https://drive.google.com/file/d/1zsbZJK2wj-If0ioLM1KBdSh1yfPi8ehN/view?usp=drive_linkPDF)
 
@@ -27,7 +27,7 @@ My most current publication information is reflected on the following links:
 
 - [Google Scholar](https://scholar.google.com/citations?user=ykpA5ZsAAAAJ&hl=en) profile 
 
-- ResearchGate profile
+- [ResearchGate](https://www.researchgate.net/profile/Mario-De-Lucio)
 
 - [ORCID](https://orcid.org/0000-0003-1168-2249)
 
