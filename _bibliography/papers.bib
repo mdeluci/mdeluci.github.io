@@ -9,25 +9,27 @@
 	author={Barsimantov, J. and Payne, J. and Mario {de Lucio} and Hakim, M. and Gomez, H. and Solorio, L. and Tepole, A. B.},
 	journal={Ann Biomed Eng},
 	year={2024},
-  bibtex_show={true},
-  preview={Jacques1.png},
-  doi={https://doi.org/10.1007/s10439-024-03477-1},
-  selected={true},
-	publisher={}
+	bibtex_show={true},
+	preview={Jacques1.png},
+	doi={https://doi.org/10.1007/s10439-024-03477-1},
+	selected={true},
+	abstract = {Subcutaneous tissue mechanics are important for drug delivery. Yet, even though this material is poroelastic, its mechanical characterization has focused on its hyperelastic response. Moreover, advancement in subcutaneous drug delivery requires effective tissue mimics such as hydrogels for which similar gaps of poroelastic data exist. Porcine subcutaneous samples and gelatin hydrogels were tested under confined compression at physiological conditions and strain rates of 0.01%/s in 5% strain steps with 2600 s of stress relaxation between loading steps. Force-time data were used in an inverse finite element approach to obtain material parameters. Tissues and gels were modeled as porous neo-Hookean materials with properties specified via shear modulus, effective solid volume fraction, initial hydraulic permeability, permeability exponent, and normalized viscous relaxation moduli. The constitutive model was implemented into an isogeometric analysis (IGA) framework to study subcutaneous injection. Subcutaneous tissue exhibited an initial spike in stress due to compression of the solid and fluid pressure buildup, with rapid relaxation explained by fluid drainage, and longer time-scale relaxation explained by viscous dissipation. The inferred parameters aligned with the ranges reported in the literature. Hydraulic permeability, the most important parameter for drug delivery, was in the range 0.142-0.203 mm4/(N s). With these parameters, IGA simulations showed peak stresses due to a 1-mL injection to reach 48.8 kPa at the site of injection, decaying after drug volume disperses into the tissue. The poro-hyper-viscoelastic neo-Hookean model captures the confined compression response of subcutaneous tissue and gelatin hydrogels. IGA implementation enables predictive simulations of drug delivery.},
+	publisher={Springer},
 }
 
 @article{Hao2,
-  author = {Hao Wang and Tianyi Hu and Yu Leng and Mario {de Lucio} and Hector Gomez},
-  title = {{MPET2}: a multi-network poroelastic and transport theory for predicting absorption of monoclonal antibodies delivered by subcutaneous injection},
-  journal = {Drug Delivery},
-  volume = {30},
-  number = {1},
-  pages = {2163003},
-  year  = {2023},
-  bibtex_show={true},
-  preview={Hao2.jpg},
-  publisher = {Taylor & Francis},
-  doi = {10.1080/10717544.2022.2163003}
+	author = {Hao Wang and Tianyi Hu and Yu Leng and Mario {de Lucio} and Hector Gomez},
+	title = {{MPET2}: a multi-network poroelastic and transport theory for predicting absorption of monoclonal antibodies delivered by subcutaneous injection},
+	journal = {Drug Delivery},
+	volume = {30},
+	number = {1},
+	pages = {2163003},
+	year  = {2023},
+	bibtex_show={true},
+	preview={Hao2.jpg},
+	publisher = {Taylor & Francis},
+	abstract = {Subcutaneous injection of monoclonal antibodies (mAbs) has attracted much attention in the pharmaceutical industry. During the injection, the drug is delivered into the tissue producing strong fluid flow and tissue deformation. While data indicate that the drug is initially uptaken by the lymphatic system due to the large size of mAbs, many of the critical absorption processes that occur at the injection site remain poorly understood. Here, we propose the MPET2 approach, a multi-network poroelastic and transport model to predict the absorption of mAbs during and after subcutaneous injection. Our model is based on physical principles of tissue biomechanics and fluid dynamics. The subcutaneous tissue is modeled as a mixture of three compartments, i.e., interstitial tissue, blood vessels, and lymphatic vessels, with each compartment modeled as a porous medium. The proposed biomechanical model describes tissue deformation, fluid flow in each compartment, the fluid exchanges between compartments, the absorption of mAbs in blood vessels and lymphatic vessels, as well as the transport of mAbs in each compartment. We used our model to perform a high-fidelity simulation of an injection of mAbs in subcutaneous tissue and evaluated the long-term drug absorption. Our model results show good agreement with experimental data in depot clearance tests.},
+	doi = {10.1080/10717544.2022.2163003}
 }
 
 @article{Hao1,
@@ -38,9 +40,10 @@
 	number={},
 	pages={},
 	year={2023},
-  bibtex_show={true},
-  preview={Hao1.jpg},
-	publisher={Elsevier}
+	bibtex_show={true},
+	preview={Hao1.jpg},
+	abstract = {The MPET2 model couples the multi-network poroelastic theory (MPET) with solute transport equations and provides predictions of the material deformation, fluid dynamics, and solute transport in different compartments of a deformable multiple-porosity medium. MPET2 offers a comprehensive framework for understanding complex porous media across multiple disciplines. Examples of its applications include studying rock formations, soil mechanics and subsurface reservoirs, investigating biological tissues, modeling groundwater flow and contaminant transport, and optimizing the design of porous materials. Despite the wide range of applications of the model, its numerical discretization has received little attention. Here we propose a stabilized formulation of the MPET2 model. To address the unique challenges posed by the discretization of the MPET model, we use multiple techniques including the Fluid Pressure Laplacian stabilization, Streamline Upwind Petrov–Galerkin stabilization, and discontinuity capturing. Our spatial discretization is based on Isogeometric Analysis with higher-order continuity basis functions. The fully discretized governing equations are solved simultaneously with a monolithic algorithm. We perform a convergence study of the proposed formulation. Then, we conduct a series of simulations of subcutaneous injection of monoclonal antibodies under different injection conditions. Our simulations show that the stabilized MPET2 formulation can provide oscillation-free solutions for tissue deformation, fluid flow in the interstitial tissue, blood vessels, and lymphatic vessels, drug absorption in blood vessels and lymphatic vessels, as well as drug transport in each compartment. We also study the effects of different injection conditions on drug absorption, showing the potential of the proposed model and algorithm in the future optimization of injection strategy.},
+	publisher={Elsevier},
 }
 
 @Article{deLucio4,
@@ -81,6 +84,7 @@
   preview={Leng2.png},
   doi = {https://doi.org/10.1007/s10237-022-01622-0},
   bibtex_show={true},
+  abstract = {Subcutaneous injection of therapeutic monoclonal antibodies (mAbs) has gained increasing interest in the pharmaceutical industry. The transport, distribution and absorption of mAbs in the skin after injection are not yet well-understood. Experiments have shown that fibrous septa form preferential channels for fluid flow in the tissue. The majority of mAbs can only be absorbed through lymphatics which follow closely the septa network. Therefore, studying drug transport in the septa network is vital to the understanding of drug absorption. In this work, we present a mixed-dimensional multi-scale (MDMS) poroelastic model of adipose tissue for subcutaneous injection. More specifically, we model the fibrous septa as reduced-dimensional microscale interfaces embedded in the macroscale tissue matrix. The model is first verified by comparing numerical results against the full-dimensional model where fibrous septa are resolved using fine meshes. Then, we apply the MDMS model to study subcutaneous injection. It is found that the permeability ratio between the septa and matrix, volume capacity of the septa network, and concentration-dependent drug viscosity are important factors affecting the amount of drug entering the septa network which are paths to lymphatics. Our results show that septa play a critical role in the transport of mAbs in the subcutaneous tissue, and this role was previously overlooked.},
   author = {Yu Leng and Hao Wang and Mario {de Lucio} and Hector Gomez}
 }
 
@@ -136,6 +140,7 @@
           https://doi.org/10.1080/10255842.2020.1836167
   },
   preview={deLucio1.jpg},
+  abstract = {Layer-specific experimental data for human aortic tissue suggest that, in aged arteries and arteries with non-atherosclerotic intimal thickening, the innermost layer of the aorta increases significantly its stiffness and thickness, becoming load-bearing. However, there are very few computational studies of abdominal aortic aneurysms (AAAs) that take into account the mechanical contribution of the three layers that comprise the aneurysmal tissue. In this paper, a three-layered finite element model is proposed from the simplest uniaxial stress state to geometrically parametrized models of AAAs with different asymmetry values. Comparisons are made between a three-layered artery wall and a mono-layered intact artery, which represents the complex behavior of the aggregate adventitia-media-intima in a single layer with averaged mechanical properties. Likewise, the response of our idealized geometries is compared with similar experimental and numerical models. Finally, the mechanical contributions of adventitia, media and intima are analyzed for the three-layered aneurysms through the evaluation of the mean stress absorption percentage. Results show the relevance and necessity of considering the inclusion of tunica intima in multi-layered models of AAAs for getting accurate results in terms of peak wall stresses and displacements.}
   bibtex_show={true},
 }
 
@@ -166,5 +171,6 @@
   pages = {70-79},
   preview={puente.png},
   language = {español},
+  abstract = {The new bridge over Santoña bay has a total lenght of 890 m and crosses from the city of Laredo to Santoña. The main stretch is a cable-stayed deck with a 200 m main span, 90 m side span and a vertical clearance far navigational purposes of 28 m. The simply supported steel deck is being built by segments incrementally launched from both sides. With that purpose, the launching process has been optimized so that its own cable stayed support system compensates the forces generated during construction. The conception of this new bridge aims at establishing a new valuable bond between Laredo and Santoña while at the same time achieving an adequate integration of the structure in the estuary.},
   url = {https://dialnet.unirioja.es/servlet/articulo?codigo=7486537}
 }
