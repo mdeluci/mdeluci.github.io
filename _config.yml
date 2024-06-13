@@ -27,10 +27,10 @@ back_to_top: true # set to false to disable the back to top button
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+#repo_trophies:
+#  enabled: true
+#  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+#  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -38,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+# rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -46,8 +46,8 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
+#search_enabled: true
+#socials_in_search: true
 
 # Dimensions
 max_width: 930px
@@ -127,10 +127,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+# lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
@@ -184,15 +184,18 @@ collections:
     output: true
     permalink: /projects/:path/
 
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_limit: # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# announcements:
+#  enabled: true
+#  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#  limit: 5 # leave blank to include all the news in the `_news` folder
+
+# latest_posts:
+#  enabled: true
+#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -392,7 +395,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "-resize 800x"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
