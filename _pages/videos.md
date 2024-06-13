@@ -4,7 +4,7 @@ permalink: /videos/
 title: Videos
 description: Animations and videos
 nav: true
-nav_order: 4
+nav_order: 9
 ---
 
 #### Fluid-structure interaction simulation of an abdominal aortic aneurysm
