@@ -1,8 +1,13 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+title: Mario is awarded the Ben M. Hillberry Graduate Scholarship
+date: 2024-04-03 03:00:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Mario has been awarded the 2023 Ben M. Hillberry departmental scholarship for his PhD work in computational biomechanics. The Ben M. Hillberry Graduate Scholarship is sponsored by the students and friends of Professor Ben M. Hillberry in honor of his years of dedication to the School of Mechanical Engineering. The scholarship is for ME graduate students with a preference for students studying in biomechanics or materials.  Selection of the recipients will be based on academic merit. Each recipient will receive a scholarship of $4,000. One recipient will be selected for each year. 
+
+
+![Hillberry](/assets/img/hillberry.JPG){: width="750" }
+
