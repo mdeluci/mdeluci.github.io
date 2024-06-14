@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mario is awarded the Ben M. Hillberry Graduate Scholarship
-date: 2024-04-03 03:00:00-0400
+date: 2023-11-10 03:00:00-0400
 inline: false
 related_posts: false
 ---
