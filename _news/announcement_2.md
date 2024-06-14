@@ -12,7 +12,7 @@ Announcements and news can be much longer than just quick inline posts. In fact,
 
 I have successfully defended my PhD Dissertation titled "Numerical Simulation and Poromechanical Modeling of Subcutaneous Injection of Monoclonal Antibodies". The PhD thesis committee was composed by Prof. Hector Gomez (Chair), Prof. Adrian Buganza Tepole, Prof. Arezoo M. Ardekani and Prof. Luis Solorio.
 
-![PhD Defense](assets/images/phd_defense.jpg)
+![PhD Defense](assets/img/phd_defense.png)
 
 #### Hipster list
 
