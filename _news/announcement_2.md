@@ -1,12 +1,12 @@
 ---
 layout: post
-title: I succesfully defended my PhD thesis
+title: Mario succesfully defended his PhD thesis
 date: 2024-04-03 03:00:00-0400
 inline: false
 related_posts: false
 ---
 
-I have successfully defended my PhD Dissertation titled "Numerical Simulation and Poromechanical Modeling of Subcutaneous Injection of Monoclonal Antibodies". The PhD thesis committee was composed by Prof. Hector Gomez (Chair), Prof. Adrian Buganza Tepole, Prof. Arezoo M. Ardekani and Prof. Luis Solorio.
+Mario has successfully defended his PhD Dissertation titled "Numerical Simulation and Poromechanical Modeling of Subcutaneous Injection of Monoclonal Antibodies". The PhD thesis committee was composed by Prof. Hector Gomez (Chair), Prof. Adrian Buganza Tepole, Prof. Arezoo M. Ardekani and Prof. Luis Solorio.
 
 ![PhD Defense](/assets/img/phd_defense.jpg){: width="750" }
 
