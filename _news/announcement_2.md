@@ -11,5 +11,5 @@ Mario has successfully defended his PhD Dissertation titled "Numerical Simulatio
 ![PhD Defense](/assets/img/phd_defense.jpg){: width="750" }
 
 > To my parents, Ana and Rafael, whose teachings I can encapsulate in the following words by the most important writer of all time:
-> ``Since you are not experienced in things of the world, all things that are a bit difficult seem impossible to you. Trust time; it usually provides a sweet way out of many bitter challenges.''
+> "Since you are not experienced in things of the world, all things that are a bit difficult seem impossible to you. Trust time; it usually provides a sweet way out of many bitter challenges."
 > —Miguel de Cervantes Saavedra, Don Quixote
