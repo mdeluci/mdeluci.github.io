@@ -2,7 +2,7 @@
 layout: post
 title: PhD thesis defense
 date: 2024-11-07 16:11:00-0400
-inline: true
+inline: false
 related_posts: false
 ---
 
