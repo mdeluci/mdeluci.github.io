@@ -15,20 +15,21 @@
       institution: Purdue University, IN, USA
       year: 2020-2024
       description:
-        - Concentration: <a href= "https://www.purdue.edu/gradschool/cigp/about/index.html">Computational Science and Engineering</a> and Solid Mechanics. 
-        - Ph.D. thesis: <a href= "https://hammer.purdue.edu/articles/thesis/Numerical_Simulation_and_Poromechanical_Modeling_of_Subcutaneous_Injection_of_Monoclonal_Antibodies/25674240">"Numerical simulation and poromechanical modeling of subcutaneous injection of monoclonal antibodies"</a>
+        - Concentration: <a href="https://www.purdue.edu/gradschool/cigp/about/index.html">Computational Science and Engineering</a> and Solid Mechanics.
+        - Ph.D. thesis: <a href="https://hammer.purdue.edu/articles/thesis/Numerical_Simulation_and_Poromechanical_Modeling_of_Subcutaneous_Injection_of_Monoclonal_Antibodies/25674240">"Numerical simulation and poromechanical modeling of subcutaneous injection of monoclonal antibodies"</a>
     - title: MSc in Civil Engineering (Graduated with Honors, ranked 1st)
       institution: University of A Coruna, Spain
       year: 2017-2019
       description:
         - Concentration: Structural and Construction Engineering
-        - Master’s thesis: <a href= "https://www.researchgate.net/publication/329707429_A_multi-layered_in-silico_model_for_rupture_risk_assessment_of_abdominal_aortic_aneurysms_with_non-atherosclerotic_intimal_thickening">"A multi-layered in-silico model for rupture risk assessment of abdominal aortic aneurysms with non-atherosclerotic intimal thickening."</a>
-        - Professional master’s project: <a href= "https://dialnet.unirioja.es/servlet/articulo?codigo=7486537">"Cable-stayed bridge over the San Martin Strait to connect the towns of Laredo and Santoña, Cantabria, Northern Spain"</a>
+        - Master’s thesis: <a href="https://www.researchgate.net/publication/329707429_A_multi-layered_in-silico_model_for_rupture_risk_assessment_of_abdominal_aortic_aneurysms_with_non-atherosclerotic_intimal_thickening">"A multi-layered in-silico model for rupture risk assessment of abdominal aortic aneurysms with non-atherosclerotic intimal thickening."</a>
+        - Professional master’s project: <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=7486537">"Cable-stayed bridge over the San Martin Strait to connect the towns of Laredo and Santoña, Cantabria, Northern Spain"</a>
     - title: BSc in Civil Engineering (Graduated with Honors, ranked 1st)
-        - Concentration: Structural and Geotechnical Engineering
-        - Bachelor’s thesis: <a href= "https://ruc.udc.es/dspace/handle/2183/19429">"Environmental Restoration and Channeling of Juan Diaz River in Panama City."</a>
       institution: University of A Coruna, Spain
       year: 2013-2017
+      description:
+        - Concentration: Structural and Geotechnical Engineering
+        - Bachelor’s thesis: <a href="https://ruc.udc.es/dspace/handle/2183/19429">"Environmental Restoration and Channeling of Juan Diaz River in Panama City."</a>
 
 - title: Experience
   type: time_table
