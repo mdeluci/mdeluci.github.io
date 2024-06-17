@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Mario de Lucio
+    - name: Place of Birth
+      value: Laredo, Cantabria, Spain
     - name: Date of Birth
       value: 22nd August 1994
     - name: Languages
