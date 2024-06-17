@@ -35,6 +35,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Scientist
+      institution: <a href="https://www.purdue.edu/research/rche/">Regenstrief Center for Healthcare Engineering</a>, Purdue University, IN, USA
+      year: 2020 - 2024
+      description:
+        - Engaged in a strategic collaboration between Eli Lilly and Purdue University, concentrating on the analysis and optimization of injectable medicine delivery systems.
+        - Conducted advanced numerical simulations to enhance understanding of the auto-injection process mechanics, aiming to improve drug bioavailability, minimize injection site pain, and boost patient compliance and overall health.        - Developed high-fidelity computational models using the Finite Element Method and Isogeometric Analysis to understand and and predict tissue deformation and fluid pressure build-up as well as their impact on drug transport and absorption.
+        - Explored innovative approaches and technologies for improving drug delivery systems, focusing on device design, injection parameters, and drug formulation        
+        - Supported and advanced the strategic collaboration between Eli Lilly and Purdue University, promoting the translation of research findings into practical applications within the pharmaceutical industry.        
+        - Demonstrated expertise in advanced computational methods, quantitative analysis, Bayesian and causal inference modeling, and AI methods in health and life sciences.
+        - Contributed to research grant writing, project management, and publication in reputable healthcare, medical, and biomedical journals.
+        
     - title: Research Assistant
       institution: Purdue University, IN, USA
       year: 2020 - 2024
@@ -45,22 +56,6 @@
         - Investigated innovative approaches and technologies to improve drug delivery systems, considering factors such as device design, injection parameters, and drug formulation.
         - Utilized data from computational models to drive informed decision-making in medical device development, enabling effective optimization and innovation in design and functionality.
         - Supported the strategic collaboration between Eli Lilly and Purdue University, fostering innovation and facilitating the translation of research findings into practical applications in the pharmaceutical industry.
-
-    - title: Structural Design Engineer
-      institution: Turkish Aerospace Industries, Ankara, Turkey
-      year: 2018-2021
-      description:
-        - Designed various spacecraft parts such as structural panels, inserts and brackets. Spearheaded the development of the first structural panel with embedded active cooling in TAI.
-
-    - title: Research Engineer
-      institution: TUBITAK Space Technologies Research Institute, Ankara, Turkey
-      year: 2017 - 2018
-      description:
-        - >
-          Developed two engineering software packages using Visual Basic and MATLAB:
-          - Aircraft conceptual design
-          - Prediction of failure modes of composite materials
-        - The packages received praise for being user friendly and responsive.
 
 - title: Honors and Awards
   type: time_table
