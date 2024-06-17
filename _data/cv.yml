@@ -37,7 +37,7 @@
   contents:
     - title: Research Scientist
       institution: <a href="https://www.purdue.edu/research/rche/">Regenstrief Center for Healthcare Engineering</a>, Purdue University, IN, USA
-      year: 2020 - 2024
+      year: July 2024 - Present
       description:
         - Engaged in a strategic collaboration between Eli Lilly and Purdue University, concentrating on the analysis and optimization of injectable medicine delivery systems.
         - Conducted advanced numerical simulations to enhance understanding of the auto-injection process mechanics, aiming to improve drug bioavailability, minimize injection site pain, and boost patient compliance and overall health.        - Developed high-fidelity computational models using the Finite Element Method and Isogeometric Analysis to understand and and predict tissue deformation and fluid pressure build-up as well as their impact on drug transport and absorption.
@@ -48,7 +48,7 @@
         
     - title: Research Assistant
       institution: Purdue University, IN, USA
-      year: 2020 - 2024
+      year: January 2020 - July 2024
       description:
         - Involved in a project within a strategic collaboration between Eli Lilly and Purdue University, focusing on the analysis of the delivery of injectable medicines.
         - Performed numerical simulations to analyze the delivery of injectable medicines with the overall goals of better understanding the fundamental mechanics of the auto-injection process and its effect on skin, improved drug bioavailability, and reducing injection site pain in order to better patient compliance and enhance overall health.
@@ -56,6 +56,27 @@
         - Investigated innovative approaches and technologies to improve drug delivery systems, considering factors such as device design, injection parameters, and drug formulation.
         - Utilized data from computational models to drive informed decision-making in medical device development, enabling effective optimization and innovation in design and functionality.
         - Supported the strategic collaboration between Eli Lilly and Purdue University, fostering innovation and facilitating the translation of research findings into practical applications in the pharmaceutical industry.
+    
+    - title: Visiting Researcher
+      institution: Purdue University, IN, USA
+      year: July 2019 - Dec 2019
+      description:
+        - Developed computational methods utilizing isogeometric analysis, poroelasticity, and data-driven tissue geometries to model the complex dynamics of high-volume, high-speed subcutaneous injection of monoclonal antibodies.
+        - Developed highly sophisticated numerical algorithms capable of running in parallel, utilizing 200+ processors in Purdue’s Rosen Center for Advanced Computing.
+        - Leveraged the computational power and parallel processing capabilities to efficiently simulate and analyze the complex fluid-structure interactions during the subcutaneous injection process.
+        - Conducted extensive simulations using the developed computational methods to investigate the effects of injection parameters, tissue properties, and geometrical variations on the injection dynamics and the resulting distribution of monoclonal antibodies.
+   
+    - title: Visiting Researcher
+      institution: Norwegian University of Science and Technology, Trondheim, Norway
+      year: July 2018 - September 2018
+      description:
+        - Acted as a main collaborator in the project“Industrial Implementation of 3D printed AlSi10Mg components under quasi-static loading”.
+        - Conducted experimental tests on structures under both quasi-static and dynamic conditions, specifically focusing on extreme deformations and crushing.
+        - Utilized Digital Image Correlation (DIC) tools to postprocess experimental results, enabling precise measurements and analysis of structural behavior.
+        - Applied crashworthiness optimization techniques to enhance the performance and efficiency of the structures.
+        - Developed finite element models to simulate the behavior of aluminum alloy thin-walled structures.
+        - Developed comprehensive material card for AlSi10Mg 3D printed aluminum, encompassing mechanical, thermal, and viscoelastic properties for accurate simulation in engineering analyses.
+        - Collaborated closely with industry partners to ensure the successful implementation of 3D printed components under quasi-static loading.
 
 - title: Honors and Awards
   type: time_table
