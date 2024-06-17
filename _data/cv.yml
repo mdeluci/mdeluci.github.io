@@ -15,7 +15,7 @@
       institution: Purdue University, IN, USA
       year: 2020-2024
       description:
-        - Concentration: <a href="https://www.purdue.edu/gradschool/cigp/about/index.html">Computational Science and Engineering</a> and Solid Mechanics.
+        - Concentration: <a href="https://www.purdue.edu/gradschool/cigp/about/index.html">Computational Science and Engineering</a> and Solid Mechanics. 
         - Ph.D. thesis: <a href="https://hammer.purdue.edu/articles/thesis/Numerical_Simulation_and_Poromechanical_Modeling_of_Subcutaneous_Injection_of_Monoclonal_Antibodies/25674240">"Numerical simulation and poromechanical modeling of subcutaneous injection of monoclonal antibodies"</a>
     - title: MSc in Civil Engineering (Graduated with Honors, ranked 1st)
       institution: University of A Coruna, Spain
@@ -38,50 +38,48 @@
       institution: Purdue University, IN, USA
       year: 2021 - Now
       description:
-        - Developed a model of hyperelastic material behavior based on feed-forward neural networks in Python/TensorFlow.
-        - Used special properties of Neural ODEs to develop a model of hyperelasticity where physics-based constraints are satisfied a priori using Python/JAX. This approach circumvents the use of a complicated loss function thus avoiding a large number of unnecessary floating-point operations.
-        - Developed the first physics-informed data-driven model of finite viscoelasticity in the world. The project uses Neural ODEs to model viscoelasticity in such a way that the relevant physical laws are satisfied automatically.
-        - Currently working on a hierarchical Bayesian model of hyperelasticity using Bayesian Neural Networks (BNNs) in Python/Numpyro. The model can characterize the uncertainty in training data and transfer knowledge from the population to an individual.
+        - "Developed a model of hyperelastic material behavior based on feed-forward neural networks in Python/TensorFlow."
+        - "Used special properties of Neural ODEs to develop a model of hyperelasticity where physics-based constraints are satisfied a priori using Python/JAX. This approach circumvents the use of a complicated loss function thus avoiding a large number of unnecessary floating-point operations."
+        - "Developed the first physics-informed data-driven model of finite viscoelasticity in the world. The project uses Neural ODEs to model viscoelasticity in such a way that the relevant physical laws are satisfied automatically."
+        - "Currently working on a hierarchical Bayesian model of hyperelasticity using Bayesian Neural Networks (BNNs) in Python/Numpyro. The model can characterize the uncertainty in training data and transfer knowledge from the population to an individual."
 
     - title: Structural Design Engineer
       institution: Turkish Aerospace Industries, Ankara, Turkey
       year: 2018-2021
       description:
-        - Designed various spacecraft parts such as structural panels, inserts and brackets. Spearheaded the development of the first structural panel with embedded active cooling in TAI.
-        
+        - "Designed various spacecraft parts such as structural panels, inserts and brackets. Spearheaded the development of the first structural panel with embedded active cooling in TAI."
 
     - title: Research Engineer
       institution: TUBITAK Space Technologies Research Institute, Ankara, Turkey
       year: 2017 - 2018
       description:
-        - title: "Developed two engineering software packages using Visual Basic and MATLAB:"
-          contents:
-            - Aircraft conceptual design
-            - Prediction of failure modes of composite materials 
-        - The packages received praise for being user friendly and responsive.
+        - "Developed two engineering software packages using Visual Basic and MATLAB:"
+        - "Aircraft conceptual design"
+        - "Prediction of failure modes of composite materials"
+        - "The packages received praise for being user friendly and responsive."
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2023
       items:
-        - Travel for Collaborative Research (TRACER) grant, Purdue University, 2023.
-        - Travel award from SES to attend the Inaugural SES Future Faculty Symposium in 2023.
+        - "Travel for Collaborative Research (TRACER) grant, Purdue University, 2023."
+        - "Travel award from SES to attend the Inaugural SES Future Faculty Symposium in 2023."
     - year: 2022
       items: 
-        - <a href="https://cee.duke.edu/about/awards-honors/melosh-medal">Robert J. Melosh Medal</a> for best student paper in computational solid mechanics, Duke University
-        - Ward A. Lambert Graduate Teaching Fellowship, Purdue University, 2022
-        - <a href= "https://engineering.purdue.edu/ME/News/2022/purdue-me-grad-students-receive-fellowships-and-scholarships">Ben M. Hillberry Graduate Scholarship</a>, Purdue University
+        - "<a href='https://cee.duke.edu/about/awards-honors/melosh-medal'>Robert J. Melosh Medal</a> for best student paper in computational solid mechanics, Duke University"
+        - "Ward A. Lambert Graduate Teaching Fellowship, Purdue University, 2022"
+        - "<a href='https://engineering.purdue.edu/ME/News/2022/purdue-me-grad-students-receive-fellowships-and-scholarships'>Ben M. Hillberry Graduate Scholarship</a>, Purdue University"
     - year: 2020
       items:
-        - TUBITAK International Publication Award
+        - "TUBITAK International Publication Award"
     - year: 2016
       items: 
-        - <a href= "https://www.aiaa.org/news/news/2016/10/25/AIAA-Foundation-Announces-Winners-of-Its-Undergraduate-Individual-Aircraft-Design-Competition">3rd Place, Individual Aircraft Design Competition 2015-16</a>, American Institute of Aeronautics and Astronautics (AIAA).
-        - 1st Place, METU Engineering Day 2016 Poster Competition
+        - "<a href='https://www.aiaa.org/news/news/2016/10/25/AIAA-Foundation-Announces-Winners-of-Its-Undergraduate-Individual-Aircraft-Design-Competition'>3rd Place, Individual Aircraft Design Competition 2015-16</a>, American Institute of Aeronautics and Astronautics (AIAA)."
+        - "1st Place, METU Engineering Day 2016 Poster Competition"
     - year: 2011
       items:
-        - Full scholarship from the Ministry of Higher Education of Afghanistan for undergraduate studies in Turkey, covering all expenses.
+        - "Full scholarship from the Ministry of Higher Education of Afghanistan for undergraduate studies in Turkey, covering all expenses."
 
 # - title: Academic Interests
 #   type: nested_list
@@ -98,4 +96,4 @@
 - title: Skills
   type: list
   contents:
-    - Research, FEM, machine learning, Python, JAX, TensorFlow, PyTorch, FORTRAN, MATLAB
+    - "Research, FEM, machine learning, Python, JAX, TensorFlow, PyTorch, FORTRAN, MATLAB"
