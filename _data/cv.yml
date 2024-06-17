@@ -15,21 +15,29 @@
       institution: Purdue University, IN, USA
       year: 2020-2024
       description:
-        - Concentration: [Computational Science and Engineering](https://www.purdue.edu/gradschool/cigp/about/index.html) and Solid Mechanics.
-        - Ph.D. thesis: ["Numerical simulation and poromechanical modeling of subcutaneous injection of monoclonal antibodies"](https://hammer.purdue.edu/articles/thesis/Numerical_Simulation_and_Poromechanical_Modeling_of_Subcutaneous_Injection_of_Monoclonal_Antibodies/25674240)
+        - >
+          Concentration: [Computational Science and Engineering](https://www.purdue.edu/gradschool/cigp/about/index.html) 
+          and Solid Mechanics.
+        - >
+          Ph.D. thesis: ["Numerical simulation and poromechanical modeling of subcutaneous injection of monoclonal antibodies"](https://hammer.purdue.edu/articles/thesis/Numerical_Simulation_and_Poromechanical_Modeling_of_Subcutaneous_Injection_of_Monoclonal_Antibodies/25674240)
     - title: MSc in Civil Engineering (Graduated with Honors, ranked 1st)
       institution: University of A Coruna, Spain
       year: 2017-2019
       description:
-        - Concentration: Structural and Construction Engineering
-        - Master’s thesis: ["A multi-layered in-silico model for rupture risk assessment of abdominal aortic aneurysms with non-atherosclerotic intimal thickening"](https://www.researchgate.net/publication/329707429_A_multi-layered_in-silico_model_for_rupture_risk_assessment_of_abdominal_aortic_aneurysms_with_non-atherosclerotic_intimal_thickening)
-        - Professional master’s project: ["Cable-stayed bridge over the San Martin Strait to connect the towns of Laredo and Santoña, Cantabria, Northern Spain"](https://dialnet.unirioja.es/servlet/articulo?codigo=7486537)
+        - >
+          Concentration: Structural and Construction Engineering
+        - >
+          Master’s thesis: ["A multi-layered in-silico model for rupture risk assessment of abdominal aortic aneurysms with non-atherosclerotic intimal thickening"](https://www.researchgate.net/publication/329707429_A_multi-layered_in-silico_model_for_rupture_risk_assessment_of_abdominal_aortic_aneurysms_with_non-atherosclerotic_intimal_thickening)
+        - >
+          Professional master’s project: ["Cable-stayed bridge over the San Martin Strait to connect the towns of Laredo and Santoña, Cantabria, Northern Spain"](https://dialnet.unirioja.es/servlet/articulo?codigo=7486537)
     - title: BSc in Civil Engineering (Graduated with Honors, ranked 1st)
       institution: University of A Coruna, Spain
       year: 2013-2017
       description:
-        - Concentration: Structural and Geotechnical Engineering
-        - Bachelor’s thesis: ["Environmental Restoration and Channeling of Juan Diaz River in Panama City"](https://ruc.udc.es/dspace/handle/2183/19429)
+        - >
+          Concentration: Structural and Geotechnical Engineering
+        - >
+          Bachelor’s thesis: ["Environmental Restoration and Channeling of Juan Diaz River in Panama City"](https://ruc.udc.es/dspace/handle/2183/19429)
 
 - title: Experience
   type: time_table
@@ -53,7 +61,8 @@
       institution: TUBITAK Space Technologies Research Institute, Ankara, Turkey
       year: 2017 - 2018
       description:
-        - Developed two engineering software packages using Visual Basic and MATLAB:
+        - >
+          Developed two engineering software packages using Visual Basic and MATLAB:
           - Aircraft conceptual design
           - Prediction of failure modes of composite materials
         - The packages received praise for being user friendly and responsive.
@@ -67,15 +76,20 @@
         - Travel award from SES to attend the Inaugural SES Future Faculty Symposium in 2023.
     - year: 2022
       items: 
-        - [Robert J. Melosh Medal](https://cee.duke.edu/about/awards-honors/melosh-medal) for best student paper in computational solid mechanics, Duke University
+        - >
+          [Robert J. Melosh Medal](https://cee.duke.edu/about/awards-honors/melosh-medal) 
+          for best student paper in computational solid mechanics, Duke University
         - Ward A. Lambert Graduate Teaching Fellowship, Purdue University, 2022
-        - [Ben M. Hillberry Graduate Scholarship](https://engineering.purdue.edu/ME/News/2022/purdue-me-grad-students-receive-fellowships-and-scholarships), Purdue University
+        - >
+          [Ben M. Hillberry Graduate Scholarship](https://engineering.purdue.edu/ME/News/2022/purdue-me-grad-students-receive-fellowships-and-scholarships), Purdue University
     - year: 2020
       items:
         - TUBITAK International Publication Award
     - year: 2016
       items: 
-        - [3rd Place, Individual Aircraft Design Competition 2015-16](https://www.aiaa.org/news/news/2016/10/25/AIAA-Foundation-Announces-Winners-of-Its-Undergraduate-Individual-Aircraft-Design-Competition), American Institute of Aeronautics and Astronautics (AIAA).
+        - >
+          [3rd Place, Individual Aircraft Design Competition 2015-16](https://www.aiaa.org/news/news/2016/10/25/AIAA-Foundation-Announces-Winners-of-Its-Undergraduate-Individual-Aircraft-Design-Competition), 
+          American Institute of Aeronautics and Astronautics (AIAA).
         - 1st Place, METU Engineering Day 2016 Poster Competition
     - year: 2011
       items:
