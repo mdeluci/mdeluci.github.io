@@ -16,7 +16,7 @@ The Cahn–Hilliard equation describes the process of phase separation, by which
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
+    Solution of the Cahn-Hilliard equation on a quarter of anulus from a randomly perturbed initial condition.
 </div>
 
 There are two main approaches to describing phase transition phenomena: sharp-interface models and phase-field models. Sharp-interface models involve the resolution of a moving boundary problem, meaning that partial differential equations have to be solved for each phase. This can lead to physical \cite{Anderson} and computational complications \cite{Barrett}, such as jump discontinuities across the interface. Phase-field models replace sharp-interfaces by thin transitions regions where the interfacial forces are smoothly distributed (diffuse interfaces). For this reason, phase-field models are also referred to as \emph{diffuse interface} models, and they are emerging as a promising tool to treat problems with interfaces.  
