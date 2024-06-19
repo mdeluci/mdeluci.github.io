@@ -9,15 +9,19 @@ related_posts: false
 ---
 
 ## The Cahn-Hilliard equation
-The Cahn–Hilliard equation describes the process of phase separation, by which the two components of a binary fluid spontaneously separate and form domains pure in each component. It was originally proposed in 1958 to model phase separation in binary alloys \cite{Cahn-Hilliard, Cahn-Hilliard2}. Since then it has been used to describe various phenomena, such as spinodal decomposition \cite{MARALDI201231}, diblock copolymer \cite{Choksi,JEONG20141263}, image inpainting \cite{4032803}, tumor growth simulation \cite{tumor,WISE2008524} or multiphase fluid flows \cite{BADALASSI2003371, Kotschote}. 
+The Cahn–Hilliard equation describes the process of phase separation, by which the two components of a binary fluid spontaneously separate and form domains pure in each component. It was originally proposed in 1958 to model phase separation in binary alloys \cite{Cahn-Hilliard, Cahn-Hilliard2}. Since then it has been used to describe various phenomena, such as spinodal decomposition \cite{MARALDI201231}, diblock copolymer \cite{Choksi,JEONG20141263}, image inpainting \cite{4032803}, tumor growth simulation \cite{tumor,WISE2008524} or multiphase fluid flows \cite{BADALASSI2003371, Kotschote}.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/ch.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+<div class="container">
+    <div class="row justify-content-center mt-3">
+        <div class="col mt-3 mt-md-0 d-flex justify-content-center">
+            <div style="width: 90%;"> <!-- Container div to control width -->
+                {% include video.liquid path="assets/video/ch.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+            </div>
+        </div>
     </div>
-</div>
-<div class="caption">
-    Solution of the Cahn-Hilliard equation on a quarter of anulus from a randomly perturbed initial condition.
+    <div class="caption text-center">
+          Solution of the Cahn-Hilliard equation on a quarter of anulus from a randomly perturbed initial condition.
+    </div>
 </div>
 
 There are two main approaches to describing phase transition phenomena: sharp-interface models and phase-field models. Sharp-interface models involve the resolution of a moving boundary problem, meaning that partial differential equations have to be solved for each phase. This can lead to physical \cite{Anderson} and computational complications \cite{Barrett}, such as jump discontinuities across the interface. Phase-field models replace sharp-interfaces by thin transitions regions where the interfacial forces are smoothly distributed (diffuse interfaces). For this reason, phase-field models are also referred to as \emph{diffuse interface} models, and they are emerging as a promising tool to treat problems with interfaces.  
