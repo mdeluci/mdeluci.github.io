@@ -1,0 +1,443 @@
+---
+---
+
+@article{Cahn-Hilliard,
+author = {Cahn,John W.  and Hilliard,John E. },
+title = {Free Energy of a Nonuniform System. I. Interfacial Free Energy},
+journal = {The Journal of Chemical Physics},
+volume = {28},
+number = {2},
+pages = {258-267},
+year = {1958},
+doi = {10.1063/1.1744102},
+}
+
+@article{PETigaCMAME,
+title = "PetIGA: A framework for high-performance isogeometric analysis",
+journal = "Computer Methods in Applied Mechanics and Engineering",
+volume = "308",
+pages = "151 - 181",
+year = "2016",
+issn = "0045-7825",
+doi = "https://doi.org/10.1016/j.cma.2016.05.011",
+author = "L. Dalcin and N. Collier and P. Vignal and A.M.A. Côrtes and V.M. Calo",
+keywords = "Isogeometric analysis, High-performance computing, Finite element method, Open-source software",
+abstract = "We present PetIGA, a code framework to approximate the solution of partial differential equations using isogeometric analysis. PetIGA can be used to assemble matrices and vectors which come from a Galerkin weak form, discretized with Non-Uniform Rational B-spline basis functions. We base our framework on PETSc, a high-performance library for the scalable solution of partial differential equations, which simplifies the development of large-scale scientific codes, provides a rich environment for prototyping, and separates parallelism from algorithm choice. We describe the implementation of PetIGA, and exemplify its use by solving a model nonlinear problem. To illustrate the robustness and flexibility of PetIGA, we solve some challenging nonlinear partial differential equations that include problems in both solid and fluid mechanics. We show strong scaling results on up to 4096 cores, which confirm the suitability of PetIGA for large scale simulations."
+}
+
+@Misc{petsc-web-page,
+author = {Satish Balay and Shrirang Abhyankar and Mark~F. Adams and Jed Brown and Peter Brune and Kris Buschelman and Lisandro Dalcin and Alp Dener and Victor Eijkhout and William~D. Gropp
+and Dmitry Karpeyev and Dinesh Kaushik and Matthew~G. Knepley and Dave~A. May and Lois Curfman McInnes and Richard Tran Mills and Todd Munson and Karl Rupp and Patrick Sanan and Barry~F. Smith and Stefano Zampini and Hong Zhang and Hong Zhang},
+title =  {{PETS}c {W}eb page},
+howpublished = {\url{https://www.mcs.anl.gov/petsc}},
+year = {2019},
+}
+
+@article{GOMEZ20084333,
+title = "Isogeometric analysis of the Cahn–Hilliard phase-field model",
+journal = "Computer Methods in Applied Mechanics and Engineering",
+volume = "197",
+number = "49",
+pages = "4333 - 4352",
+year = "2008",
+issn = "0045-7825",
+doi = "https://doi.org/10.1016/j.cma.2008.05.003",
+author = "Héctor Gómez and Victor M. Calo and Yuri Bazilevs and Thomas J.R. Hughes",
+keywords = "Phase-field, Cahn–Hilliard, Isogeometric analysis, NURBS, Steady state solutions, Isoperimetric problem",
+abstract = "The Cahn–Hilliard equation involves fourth-order spatial derivatives. Finite element solutions are not common because primal variational formulations of fourth-order operators are only well defined and integrable if the finite element basis functions are piecewise smooth and globally C1-continuous. There are a very limited number of two-dimensional finite elements possessing C1-continuity applicable to complex geometries, but none in three-dimensions. We propose isogeometric analysis as a technology that possesses a unique combination of attributes for complex problems involving higher-order differential operators, namely, higher-order accuracy, robustness, two- and three-dimensional geometric flexibility, compact support, and, most importantly, the possibility of C1 and higher-order continuity. A NURBS-based variational formulation for the Cahn–Hilliard equation was tested on two- and three-dimensional problems. We present steady state solutions in two-dimensions and, for the first time, in three-dimensions. To achieve these results an adaptive time-stepping method is introduced. We also present a technique for desensitizing calculations to dependence on mesh refinement. This enables the calculation of topologically correct solutions on coarse meshes, opening the way to practical engineering applications of phase-field methodology."
+}
+
+@inbook{Gomez2,
+author = {Gomez, Hector and van der Zee, Kristoffer G.},
+publisher = {American Cancer Society},
+isbn = {9781119176817},
+title = {Computational Phase-Field Modeling},
+booktitle = {Encyclopedia of Computational Mechanics Second Edition},
+chapter = {},
+pages = {1-35},
+doi = {https://doi.org/10.1002/9781119176817.ecm2118},
+year = {2017},
+keywords = {phase-field modeling, thermomechanics, thermodynamically-consistent algorithms, isogeometric analysis, multiphase flows, fracture mechanics, tumor growth, Cahn–Hilliard equation},
+abstract = {Abstract Phase-field modeling is emerging as a promising tool for the treatment of problems with interfaces. The classical description of interface problems requires the numerical solution of partial differential equations on moving domains in which the domain motions are also unknowns. The computational treatment of these problems requires moving meshes and is very difficult when these domains undergo topological changes. Phase-field modeling may be understood as a methodology to reformulate interface problems as equations posed on fixed domains. In some cases, the phase-field model may be shown to converge to the moving-boundary problem as a regularization parameter tends to zero, which shows the mathematical soundness of the approach. However, this is only part of the story because phase-field models do not need to have a moving-boundary problem associated and can be rigorously derived from classical thermomechanics. In this context, the distinguishing feature is that constitutive models depend on the variational derivative of the free energy. In all, phase-field models open the opportunity for the efficient treatment of outstanding problems in computational mechanics, such as the interaction of a large number of cracks in three dimensions, cavitation, film and nucleate boiling, tumor growth, or fully three-dimensional air–water flows with surface tension. In addition, phase-field models bring a new set of challenges for numerical discretization, which will excite the computational mechanics community.}
+}
+
+@article{Elliott1989ASO,
+  title={A second order splitting method for the Cahn-Hilliard equation},
+  author={C. M. Elliott and D. French and F. Milner},
+  journal={Numerische Mathematik},
+  year={1989},
+  volume={54},
+  pages={575-590}
+}
+
+@article{CuetoFelgueroso2008ATF,
+  title={A time-adaptive finite volume method for the Cahn-Hilliard and Kuramoto-Sivashinsky equations},
+  author={L. Cueto-Felgueroso and J. Peraire},
+  journal={J. Comput. Phys.},
+  year={2008},
+  volume={227},
+  pages={9985-10017}
+}
+
+@article{polymer,
+author = {Chan, Philip K. and Rey, Alejandro D.},
+title = {Polymerization-Induced Phase Separation. 2. Morphological Analysis},
+journal = {Macromolecules},
+volume = {30},
+number = {7},
+pages = {2135-2143},
+year = {1997},
+doi = {10.1021/ma961078w},
+
+URL = { 
+        https://doi.org/10.1021/ma961078w
+    
+},
+eprint = { 
+        https://doi.org/10.1021/ma961078w
+    
+}
+
+}
+
+@article{Rajagopal,
+	Abstract = {We present a natural element method to treat higher-order spatial derivatives in the Cahn--Hilliard equation. The Cahn--Hilliard equation is a fourth-order nonlinear partial differential equation that allows to model phase separation in binary mixtures. Standard classical {\$}{\$}{\{}{\{}{$\backslash$}mathcal{\{}C{\}}{\}}\^{}0{\}}{\$}{\$}-continuous finite element solutions are not suitable because primal variational formulations of fourth-order operators are well-defined and integrable only if the finite element basis functions are piecewise smooth and globally {\$}{\$}{\{}{\{}{$\backslash$}mathcal{\{}C{\}}{\}}\^{}1{\}}{\$}{\$}-continuous. To ensure {\$}{\$}{\{}{\{}{$\backslash$}mathcal{\{}C{\}}{\}}\^{}1{\}}{\$}{\$}-continuity, we develop a natural-element-based spatial discretization scheme. The {\$}{\$}{\{}{\{}{$\backslash$}mathcal{\{}C{\}}{\}}\^{}1{\}}{\$}{\$}-continuous natural element shape functions are achieved by a transformation of the classical Farin interpolant, which is basically obtained by embedding Sibsons natural element coordinates in a Bernstein--B{\'e}zier surface representation of a cubic simplex. For the temporal discretization, we apply the (second-order accurate) trapezoidal time integration scheme supplemented with an adaptively adjustable time step size. Numerical examples are presented to demonstrate the efficiency of the computational algorithm in two dimensions. Both periodic Dirichlet and homogeneous Neumann boundary conditions are applied. Also constant and degenerate mobilities are considered. We demonstrate that the use of {\$}{\$}{\{}{\{}{$\backslash$}mathcal{\{}C{\}}{\}}\^{}1{\}}{\$}{\$}-continuous natural element shape functions enables the computation of topologically correct solutions on arbitrarily shaped domains.},
+	Author = {Rajagopal, Amirtham and Fischer, Paul and Kuhl, Ellen and Steinmann, Paul},
+	Da = {2010/08/01},
+	Date-Added = {2020-12-06 18:28:03 -0500},
+	Date-Modified = {2020-12-06 18:28:03 -0500},
+	Doi = {10.1007/s00466-010-0490-4},
+	Id = {Rajagopal2010},
+	Isbn = {1432-0924},
+	Journal = {Computational Mechanics},
+	Number = {3},
+	Pages = {471--493},
+	Title = {Natural element analysis of the Cahn--Hilliard phase-field model},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1007/s00466-010-0490-4},
+	Volume = {46},
+	Year = {2010},
+	Bdsk-Url-1 = {https://doi.org/10.1007/s00466-010-0490-4}}
+
+@article{M2AN_2009__43_5_1003_0,
+     author = {Ba\v nas, \v Lubom\'\i r and N\"urnberg, Robert},
+     title = {A posteriori estimates for the Cahn-Hilliard equation with obstacle free energy},
+     journal = {ESAIM: Mathematical Modelling and Numerical Analysis - Mod\'elisation Math\'ematique et Analyse Num\'erique},
+     publisher = {EDP-Sciences},
+     volume = {43},
+     number = {5},
+     year = {2009},
+     pages = {1003-1026},
+     doi = {10.1051/m2an/2009015},
+     zbl = {pre05608360},
+     mrnumber = {2559742}
+}
+
+@article{Zee,
+author = {van der Zee, Kristoffer G. and Tinsley Oden, J. and Prudhomme, Serge and Hawkins-Daarud, Andrea},
+title = {Goal-oriented error estimation for Cahn–Hilliard models of binary phase transition},
+journal = {Numerical Methods for Partial Differential Equations},
+volume = {27},
+number = {1},
+pages = {160-196},
+keywords = {a posteriori error estimation, Cahn–Hilliard, diffuse interface, dual Cahn–Hilliard, dual well-posedness, error–residual equivalence, goal-oriented error analysis, linearized adjoint, quantities of interest},
+doi = {https://doi.org/10.1002/num.20638},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/num.20638},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/num.20638},
+abstract = {Abstract A posteriori estimates of errors in quantities of interest are developed for the nonlinear system of evolution equations embodied in the Cahn–Hilliard model of binary phase transition. These involve the analysis of wellposedness of dual backward-in-time problems and the calculation of residuals. Mixed finite element approximations are developed and used to deliver numerical solutions of representative problems in one- and two-dimensional domains. Estimated errors are shown to be quite accurate in these numerical examples. © 2010 Wiley Periodicals, Inc. Numer Methods Partial Differential Eq, 2010},
+year = {2011}
+}
+
+@article{HUGHES20054135,
+title = "Isogeometric analysis: CAD, finite elements, NURBS, exact geometry and mesh refinement",
+journal = "Computer Methods in Applied Mechanics and Engineering",
+volume = "194",
+number = "39",
+pages = "4135 - 4195",
+year = "2005",
+issn = "0045-7825",
+author = "T.J.R. Hughes and J.A. Cottrell and Y. Bazilevs",
+keywords = "NURBS, Finite element analysis, CAD, Structural analysis, Fluid dynamics, Mesh refinement, Convergence, Boundary layers, Internal layers, Geometry, Shells, -refinement, -refinement, -refinement",
+abstract = "The concept of isogeometric analysis is proposed. Basis functions generated from NURBS (Non-Uniform Rational B-Splines) are employed to construct an exact geometric model. For purposes of analysis, the basis is refined and/or its order elevated without changing the geometry or its parameterization. Analogues of finite element h- and p-refinement schemes are presented and a new, more efficient, higher-order concept, k-refinement, is introduced. Refinements are easily implemented and exact geometry is maintained at all levels without the necessity of subsequent communication with a CAD (Computer Aided Design) description. In the context of structural mechanics, it is established that the basis functions are complete with respect to affine transformations, meaning that all rigid body motions and constant strain states are exactly represented. Standard patch tests are likewise satisfied. Numerical examples exhibit optimal rates of convergence for linear elasticity problems and convergence to thin elastic shell solutions. A k-refinement strategy is shown to converge toward monotone solutions for advection–diffusion processes with sharp internal and boundary layers, a very surprising result. It is argued that isogeometric analysis is a viable alternative to standard, polynomial-based, finite element analysis and possesses several advantages."
+}
+
+@article{evans2009n,
+	title={n-Widths, sup--infs, and optimality ratios for the k-version of the isogeometric finite element method},
+	author={Evans, John A and Bazilevs, Yuri and Babu{\v{s}}ka, Ivo and Hughes, Thomas JR},
+	journal={Computer Methods in Applied Mechanics and Engineering},
+	volume={198},
+	number={21-26},
+	pages={1726--1741},
+	year={2009},
+	publisher={Elsevier}
+}
+
+@article{akkerman2008role,
+	title={The role of continuity in residual-based variational multiscale modeling of turbulence},
+	author={Akkerman, I and Bazilevs, Y and Calo, VM and Hughes, TJR and Hulshoff, S},
+	journal={Computational Mechanics},
+	volume={41},
+	number={3},
+	pages={371--378},
+	year={2008},
+	publisher={Springer}
+}
+
+@article{GOMEZ20101828,
+title = "Isogeometric analysis of the isothermal Navier–Stokes–Korteweg equations",
+journal = "Computer Methods in Applied Mechanics and Engineering",
+volume = "199",
+number = "25",
+pages = "1828 - 1840",
+year = "2010",
+issn = "0045-7825",
+author = "Hector Gomez and Thomas J.R. Hughes and Xesús Nogueira and Victor M. Calo",
+keywords = "Navier–Stokes–Korteweg, Vaporization, Condensation, Phase-field, Isogeometric analysis",
+abstract = "This paper is devoted to the numerical simulation of the Navier–Stokes–Korteweg equations, a phase-field model for water/water-vapor two-phase flows. We develop a numerical formulation based on isogeometric analysis that permits straightforward treatment of the higher-order partial–differential operator that represents capillarity. We introduce a new refinement methodology that desensitizes the numerical solution to the computational mesh and achieves mesh invariant solutions. Finally, we present several numerical examples in two and three dimensions that illustrate the effectiveness and robustness of our approach."
+}
+
+@article{GOMEZ201252,
+title = "An unconditionally energy-stable method for the phase field crystal equation",
+journal = "Computer Methods in Applied Mechanics and Engineering",
+volume = "249-252",
+pages = "52 - 61",
+year = "2012",
+note = "Higher Order Finite Element and Isogeometric Methods",
+issn = "0045-7825",
+author = "Hector Gomez and Xesús Nogueira",
+keywords = "Isogeometric Analysis, Time-integration, Unconditionally stable, Phase-field crystal",
+abstract = "The phase field crystal equation has been recently put forward as a model for microstructure evolution of two-phase systems on atomic length and diffusive time scales. The theory is cast in terms of an evolutive nonlinear sixth-order partial differential equation for the interatomic density that locally minimizes an energy functional with the constraint of mass conservation. Here we propose a new numerical algorithm for the phase field crystal equation that is second-order time-accurate and unconditionally stable with respect to the energy functional. We present several numerical examples in two and three dimensions dealing with crystal growth in a supercooled liquid and crack propagation in a ductile material. These examples show the effectiveness of our new algorithm."
+}
+
+@article{jansen2000generalized,
+	title={A generalized-$\alpha$ method for integrating the filtered Navier--Stokes equations with a stabilized finite element method},
+	author={Jansen, Kenneth E and Whiting, Christian H and Hulbert, Gregory M},
+	journal={Computer methods in applied mechanics and engineering},
+	volume={190},
+	number={3-4},
+	pages={305--319},
+	year={2000},
+	publisher={Elsevier}
+}
+
+@article{chung1993time,
+    author = {Chung, J. and Hulbert, G. M.},
+    title = "{A Time Integration Algorithm for Structural Dynamics With Improved Numerical Dissipation: The Generalized-$\alpha$ Method}",
+    journal = {Journal of Applied Mechanics},
+    volume = {60},
+    number = {2},
+    pages = {371-375},
+    year = {1993},
+    month = {06},
+    abstract = "{A new family of time integration algorithms is presented for solving structural dynamics problems. The new method, denoted as the generalized-α method, possesses numerical dissipation that can be controlled by the user. In particular, it is shown that the generalized-α method achieves high-frequency dissipation while minimizing unwanted low-frequency dissipation. Comparisons are given of the generalized-α method with other numerically dissipative time integration methods; these results highlight the improved performance of the new algorithm. The new algorithm can be easily implemented into programs that already include the Newmark and Hilber-Hughes-Taylor-α time integration methods.}",
+    issn = {0021-8936}
+}
+
+	@article{GMRES,
+author = {Saad, Youcef and Schultz, Martin H.},
+title = {GMRES: A Generalized Minimal Residual Algorithm for Solving Nonsymmetric Linear Systems},
+journal = {SIAM Journal on Scientific and Statistical Computing},
+volume = {7},
+number = {3},
+pages = {856-869},
+year = {1986} 
+}
+
+@article{Cahn-Hilliard2,
+author = {Cahn,John W. },
+title = {Free Energy of a Nonuniform System. II. Thermodynamic Basis},
+journal = {The Journal of Chemical Physics},
+volume = {30},
+number = {5},
+pages = {1121-1124},
+year = {1959},
+doi = {10.1063/1.1730145},
+
+URL = { 
+        https://doi.org/10.1063/1.1730145
+    
+},
+eprint = { 
+        https://doi.org/10.1063/1.1730145
+    
+}
+
+}
+
+@article{MARALDI201231,
+title = "A unified thermodynamic framework for the modelling of diffusive and displacive phase transitions",
+journal = "International Journal of Engineering Science",
+volume = "50",
+number = "1",
+pages = "31 - 45",
+year = "2012",
+issn = "0020-7225",
+doi = "https://doi.org/10.1016/j.ijengsci.2011.09.005",
+url = "http://www.sciencedirect.com/science/article/pii/S0020722511001832",
+author = "M. Maraldi and L. Molari and D. Grandi",
+keywords = "Diffusive phase transition, Displacive phase transition, Thermodynamics, Phase field model",
+abstract = "A thermodynamically consistent framework able to model both diffusive and displacive phase transitions is proposed. The first law of thermodynamics, the balance of linear momentum equation (in the linearized strain approximation) and the Cahn–Hilliard equation for solute mass conservation are the governing equations of the model, which is complemented by a suitable choice of the Helmholtz free energy and consistent boundary and initial conditions. To highlight thermo-chemo-mechanical interactions, some numerical tests are performed in which the phase transition is triggered by setting the value of the initial temperature; a time–temperature–transformation diagram is determined."
+}
+
+
+@article{Choksi,
+author = {Choksi, Rustum and Peletier, Mark A. and Williams, J. F.},
+title = {On the Phase Diagram for Microphase Separation of Diblock Copolymers: An Approach via a Nonlocal Cahn–Hilliard Functional},
+journal = {SIAM Journal on Applied Mathematics},
+volume = {69},
+number = {6},
+pages = {1712-1738},
+year = {2009},
+doi = {10.1137/080728809},
+
+URL = { 
+        https://doi.org/10.1137/080728809
+    
+},
+eprint = { 
+        https://doi.org/10.1137/080728809
+    
+}
+
+}
+
+@article{JEONG20141263,
+title = "Numerical analysis of energy-minimizing wavelengths of equilibrium states for diblock copolymers",
+journal = "Current Applied Physics",
+volume = "14",
+number = "9",
+pages = "1263 - 1272",
+year = "2014",
+issn = "1567-1739",
+doi = "https://doi.org/10.1016/j.cap.2014.06.016",
+url = "http://www.sciencedirect.com/science/article/pii/S1567173914001849",
+author = "Darae Jeong and Jaemin Shin and Yibao Li and Yongho Choi and Jae-Hun Jung and Seunggyu Lee and Junseok Kim",
+keywords = "Nonlocal Cahn–Hilliard equation, Lamellar phase, Wavelength, Phase separation, Diblock copolymer",
+abstract = "We present a robust and accurate numerical algorithm for calculating energy-minimizing wavelengths of equilibrium states for diblock copolymers. The phase-field model for diblock copolymers is based on the nonlocal Cahn–Hilliard equation. The model consists of local and nonlocal terms associated with short- and long-range interactions, respectively. To solve the phase-field model efficiently and accurately, we use a linearly stabilized splitting-type scheme with a semi-implicit Fourier spectral method. To find energy-minimizing wavelengths of equilibrium states, we take two approaches. One is to obtain an equilibrium state from a long time simulation of the time-dependent partial differential equation with varying periodicity and choosing the energy-minimizing wavelength. The other is to directly solve the ordinary differential equation for the steady state. The results from these two methods are identical, which confirms the accuracy of the proposed algorithm. We also propose a simple and powerful formula: h = L∗/m, where h is the space grid size, L∗ is the energy-minimizing wavelength, and m is the number of the numerical grid steps in one period of a wave. Two- and three-dimensional numerical results are presented validating the usefulness of the formula without trial and error or ad hoc processes."
+}
+
+@ARTICLE{4032803,
+  author={A. L. {Bertozzi} and S. {Esedoglu} and A. {Gillette}},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Inpainting of Binary Images Using the Cahn–Hilliard Equation}, 
+  year={2007},
+  volume={16},
+  number={1},
+  pages={285-291},
+  doi={10.1109/TIP.2006.887728}}
+  
+  @article{tumor,
+author = {Hilhorst, Danielle and Kampmann, Johannes and Nguyen, Thanh Nam and Van Der Zee, Kristoffer George},
+title = {Formal asymptotic limit of a diffuse-interface tumor-growth model},
+journal = {Mathematical Models and Methods in Applied Sciences},
+volume = {25},
+number = {06},
+pages = {1011-1043},
+year = {2015},
+doi = {10.1142/S0218202515500268},
+
+URL = { 
+        https://doi.org/10.1142/S0218202515500268
+    
+},
+eprint = { 
+        https://doi.org/10.1142/S0218202515500268
+    
+}
+,
+    abstract = { We consider a diffuse-interface tumor-growth model which has the form of a phase-field system. We characterize the singular limit of this problem. More precisely, we formally prove that as the coefficient of the reaction term tends to infinity, the solution converges to the solution of a novel free boundary problem. We present numerical simulations which illustrate the convergence of the diffuse-interface model to the identified sharp-interface limit. }
+}
+@article{WISE2008524,
+title = "Three-dimensional multispecies nonlinear tumor growth—I: Model and numerical method",
+journal = "Journal of Theoretical Biology",
+volume = "253",
+number = "3",
+pages = "524 - 543",
+year = "2008",
+issn = "0022-5193",
+doi = "https://doi.org/10.1016/j.jtbi.2008.03.027",
+url = "http://www.sciencedirect.com/science/article/pii/S0022519308001525",
+author = "S.M. Wise and J.S. Lowengrub and H.B. Frieboes and V. Cristini",
+keywords = "Cancer, Necrosis, Computer simulation, Diffuse interface method, Mixture model, Nonlinear multigrid method, Three-dimensional model",
+abstract = "This is the first paper in a two-part series in which we develop, analyze, and simulate a diffuse interface continuum model of multispecies tumor growth and tumor-induced angiogenesis in two and three dimensions. Three-dimensional simulations of nonlinear tumor growth and neovascularization using this diffuse interface model were recently presented in Frieboes et al. [2007. Computer simulation of glioma growth and morphology. NeuroImage S59–S70], but that paper did not describe the details of the model or the numerical algorithm. This is done here. In this diffuse interface approach, sharp interfaces are replaced by narrow transition layers that arise due to differential adhesive forces among the cell species. Accordingly, a continuum model of adhesion is introduced. The model is thermodynamically consistent, is related to recently developed mixture models, and thus is capable of providing a detailed description of tumor progression. The model is well-posed and consists of fourth-order nonlinear advection–reaction–diffusion equations (of Cahn–Hilliard-type) for the cell species coupled with reaction–diffusion equations for the substrate components. We demonstrate analytically and numerically that when the diffuse interface thickness tends to zero, the system reduces to a classical sharp interface model. Using a new fully adaptive and nonlinear multigrid/finite difference method, the system is simulated efficiently. In this first paper, we present simulations of unstable avascular tumor growth in two and three dimensions and demonstrate that our techniques now make large-scale three-dimensional simulations of tumors with complex morphologies computationally feasible. In part II of this study, we will investigate multispecies tumor invasion, tumor-induced angiogenesis, and focus on the morphological instabilities that may underlie invasive phenotypes."
+}
+
+@article{BADALASSI2003371,
+title = "Computation of multiphase systems with phase field models",
+journal = "Journal of Computational Physics",
+volume = "190",
+number = "2",
+pages = "371 - 397",
+year = "2003",
+issn = "0021-9991",
+doi = "https://doi.org/10.1016/S0021-9991(03)00280-8",
+url = "http://www.sciencedirect.com/science/article/pii/S0021999103002808",
+author = "V.E. Badalassi and H.D. Ceniceros and S. Banerjee",
+keywords = "Cahn–Hilliard equation, Navier–Stokes equations, Phase separation, Model H, Phase separation under shear flow, Interface capturing methods",
+abstract = "Phase field models offer a systematic physical approach for investigating complex multiphase systems behaviors such as near-critical interfacial phenomena, phase separation under shear, and microstructure evolution during solidification. However, because interfaces are replaced by thin transition regions (diffuse interfaces), phase field simulations require resolution of very thin layers to capture the physics of the problems studied. This demands robust numerical methods that can efficiently achieve high resolution and accuracy, especially in three dimensions. We present here an accurate and efficient numerical method to solve the coupled Cahn–Hilliard/Navier–Stokes system, known as Model H, that constitutes a phase field model for density-matched binary fluids with variable mobility and viscosity. The numerical method is a time-split scheme that combines a novel semi-implicit discretization for the convective Cahn–Hilliard equation with an innovative application of high-resolution schemes employed for direct numerical simulations of turbulence. This new semi-implicit discretization is simple but effective since it removes the stability constraint due to the nonlinearity of the Cahn–Hilliard equation at the same cost as that of an explicit scheme. It is derived from a discretization used for diffusive problems that we further enhance to efficiently solve flow problems with variable mobility and viscosity. Moreover, we solve the Navier–Stokes equations with a robust time-discretization of the projection method that guarantees better stability properties than those for Crank–Nicolson-based projection methods. For channel geometries, the method uses a spectral discretization in the streamwise and spanwise directions and a combination of spectral and high order compact finite difference discretizations in the wall normal direction. The capabilities of the method are demonstrated with several examples including phase separation with, and without, shear in two and three dimensions. The method effectively resolves interfacial layers of as few as three mesh points. The numerical examples show agreement with analytical solutions and scaling laws, where available, and the 3D simulations, in the presence of shear, reveal rich and complex structures, including strings."
+}
+
+@article{Kotschote,
+author = {Kotschote, Matthias and Zacher, Rico},
+title = {Strong solutions in the dynamical theory of compressible fluid mixtures},
+journal = {Mathematical Models and Methods in Applied Sciences},
+volume = {25},
+number = {07},
+pages = {1217-1256},
+year = {2015},
+doi = {10.1142/S0218202515500311},
+
+URL = { 
+        https://doi.org/10.1142/S0218202515500311
+    
+},
+eprint = { 
+        https://doi.org/10.1142/S0218202515500311
+    
+}
+,
+    abstract = { In this paper we investigate the compressible Navier–Stokes–Cahn–Hilliard equations (the so-called NSCH model) derived by Lowengrub and Truskinovsky. This model describes the flow of a binary compressible mixture; the fluids are supposed to be macroscopically immiscible, but partial mixing is permitted leading to narrow transition layers. The internal structure and macroscopic dynamics of these layers are induced by a Cahn–Hilliard law that the mixing ratio satisfies. The PDE constitute a strongly coupled hyperbolic–parabolic system. We establish a local existence and uniqueness result for strong solutions. }
+}
+
+@article{Anderson,
+author = {Anderson, D. M. and McFadden, G. B. and Wheeler, A. A.},
+title = {DIFFUSE-INTERFACE METHODS IN FLUID MECHANICS},
+journal = {Annual Review of Fluid Mechanics},
+volume = {30},
+number = {1},
+pages = {139-165},
+year = {1998},
+doi = {10.1146/annurev.fluid.30.1.139},
+
+URL = { 
+        https://doi.org/10.1146/annurev.fluid.30.1.139
+    
+},
+eprint = { 
+        https://doi.org/10.1146/annurev.fluid.30.1.139
+    
+}
+,
+    abstract = {Abstract We review the development of diffuse-interface models of hydrodynamics and their application to a wide variety of interfacial phenomena. These models have been applied successfully to situations in which the physical phenomena of interest have a length scale commensurate with the thickness of the interfacial region (e.g. near-critical interfacial phenomena or small-scale flows such as those occurring near contact lines) and fluid flows involving large interface deformations and/or topological changes (e.g. breakup and coalescence events associated with fluid jets, droplets, and large-deformation waves). We discuss the issues involved in formulating diffuse-interface models for single-component and binary fluids. Recent applications and computations using these models are discussed in each case. Further, we address issues including sharp-interface analyses that relate these models to the classical free-boundary problem, computational approaches to describe interfacial phenomena, and models of fully miscible fluids. }
+}
+
+@article{Barrett,
+author = {Barrett, John W. and Nürnberg, Robert and Styles, Vanessa},
+title = {Finite Element Approximation of a Phase Field Model for Void Electromigration},
+journal = {SIAM Journal on Numerical Analysis},
+volume = {42},
+number = {2},
+pages = {738-772},
+year = {2004},
+doi = {10.1137/S0036142902413421},
+
+URL = { 
+        https://doi.org/10.1137/S0036142902413421
+    
+},
+eprint = { 
+        https://doi.org/10.1137/S0036142902413421
+    
+}
+
+}
