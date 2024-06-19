@@ -87,7 +87,7 @@ The parameter $$\epsilon$$ is a positive constant that defines the length scale 
     \alpha=\frac{L_0^2}{3\epsilon^2}
 \end{equation}
 
-also referred to as sharpness parameter, where $$L_0$$ is a length scale of the problem. Here, we will assume that $$L_0$$ is a measure of the computational domain size. Without loss of generality, $$L_0=R_2=1.0$$ will be the outer radius of the quarter of annulus. The sharpness parameter $\alpha$ usually takes values in the range $$10^3-10^4$$ \cite{GOMEZ20084333,Gomez2}. We will study the evolution of the phase-field variable for different values of $$\alpha$$.
+also referred to as sharpness parameter, where $$L_0$$ is a length scale of the problem. Here, we will assume that $$L_0$$ is a measure of the computational domain size. Without loss of generality, $$L_0=R_2=1.0$$ will be the outer radius of the quarter of annulus. The sharpness parameter $$\alpha$$ usually takes values in the range $$10^3-10^4$$ \cite{GOMEZ20084333,Gomez2}. We will study the evolution of the phase-field variable for different values of $$\alpha$$.
 
 ## Results
 We consider the split form of the Cahn-Hilliard equation on an open quarter-annulus domain
