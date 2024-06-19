@@ -2,7 +2,7 @@
 layout: post
 title: Mario de Lucio is selected as a 2023 Trailblazers in Engineering Fellow by Purdue College of Engineering.
 
-date: 2024-04-03 03:00:00-0400
+date: 2023-07-22 03:00:00-0400
 inline: false
 related_posts: false
 ---
@@ -14,4 +14,6 @@ Photos:
 - Mario receving his diploma alongside Prof. Arvind Raman, Dean of the College of Engineering, and Prof. Luna Lu, Associate Dean of Faculty of the College of Engineering.
 
 ![TBE1](/assets/img/TBE1.jpg){: width="750" }
+
+
 ![TBE2](/assets/img/TBE2.jpg){: width="750" }
