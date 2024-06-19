@@ -10,7 +10,7 @@ related_posts: false
 ---
 
 ## The Cahn-Hilliard equation
-The <i>Cahn–Hilliard equation<i> describes the process of phase separation, by which the two components of a binary fluid spontaneously separate and form domains pure in each component. It was originally proposed in 1958 to model phase separation in binary alloys  {% Cahn-Hilliard Cahn-Hilliard2 --collection external_references %}. Since then it has been used to describe various phenomena, such as spinodal decomposition \cite{MARALDI201231}, diblock copolymer \cite{Choksi,JEONG20141263}, image inpainting \cite{4032803}, tumor growth simulation \cite{tumor,WISE2008524} or multiphase fluid flows \cite{BADALASSI2003371, Kotschote}.
+The <i>Cahn–Hilliard equation<i> describes the process of phase separation, by which the two components of a binary fluid spontaneously separate and form domains pure in each component. It was originally proposed in 1958 to model phase separation in binary alloys . Since then it has been used to describe various phenomena, such as spinodal decomposition \cite{MARALDI201231}, diblock copolymer \cite{Choksi,JEONG20141263}, image inpainting \cite{4032803}, tumor growth simulation \cite{tumor,WISE2008524} or multiphase fluid flows \cite{BADALASSI2003371, Kotschote}.
 
 <div class="container">
     <div class="row justify-content-center mt-3">
