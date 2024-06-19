@@ -88,7 +88,7 @@ The mobility $$m\left(\phi\right)$$, which can be linked with the diffusivity, c
 The parameter $$\epsilon$$ is a positive constant that defines the length scale for the problem. According to \cite{GOMEZ20084333}, the solution to the Cahn-Hilliard equations depends only on the dimensionless number
 
 \begin{equation}
-    \alpha=\frac{L_0^2}{3\epsilon^2}
+    \alpha=\frac{L_0^2}{3\epsilon^2},
 \end{equation}
 
 also referred to as sharpness parameter, where $$L_0$$ is a length scale of the problem. Here, we will assume that $$L_0$$ is a measure of the computational domain size. Without loss of generality, $$L_0=R_2=1.0$$ will be the outer radius of the quarter of annulus. The sharpness parameter $$\alpha$$ usually takes values in the range $$10^3-10^4$$ \cite{GOMEZ20084333,Gomez2}. We will study the evolution of the phase-field variable for different values of $$\alpha$$.
@@ -97,7 +97,7 @@ also referred to as sharpness parameter, where $$L_0$$ is a length scale of the 
 The strong form of our model defined by Eqns. \eqref{st1}--\eqref{st7} is now cast in weak form and discretized using the Galerkin approach. We will only work with free-flux boundary conditions. Thus, all boundary integrals will vanish in the weak form. Let us define the functional space $$\mathcal{V} \subset \mathcal{H}^1$$, where $$\mathcal{H}^1$$ is the Sobolev space of square-integrable functions with square-integrable first derivative in the domain $$\Omega$$. To perform space discretization we introduce the finite-dimensional space $$\mathcal{V}^h\subset \mathcal{V}$$, where $$\mathcal{V}^h ={\rm span}\left \{ N_A \right \}_{A=1,\dots,n_f}$$ and $$n_f$$ is the number of functions on the basis. The space of weighting functions will also be $$\mathcal{V}^h$$, giving rise to a Galerkin formulation. We define discrete approximations to the problem's solution denoted by  $$\phi^h$$ and $$\mu^h$$. Their corresponding weighting functions are $$w_{\phi}^h$$ and $$w_{\mu}^h$$. Then, the variational formulation of Eqns. \eqref{st1}--\eqref{st7} over the finite-dimensional space $\mathcal{V}^h$ can be stated as follows: find $$\phi^h$$, $$\mu^h$$ $$\in \mathcal{V}^h\subset \mathcal{V}$$ such that $$\forall$$ $$w_{\phi}^h$$, $$w_{\mu}^h$$ $$\in \mathcal{V}^h \subset \mathcal{V}$$
 
 \begin{equation}
-    \int_{\Omega}w_{\phi}^h\frac{\partial\phi}{\partial t}d\Omega +\int_{\Omega}m\nabla w_{\phi}^h \cdot \nabla \mu^h d\Omega =0 \label{wf1}
+    \int_{\Omega}w_{\phi}^h\frac{\partial\phi}{\partial t}d\Omega +\int_{\Omega}m\nabla w_{\phi}^h \cdot \nabla \mu^h d\Omega =0, \label{wf1}
 \end{equation}
 \begin{equation}
     \int_{\Omega}w_{\mu}^h \mu^h d\Omega - \int_{\Omega}w_{\mu}^h \phi^h \left( \left(\phi^h \right)^2-1 \right)d\Omega- \int_{\Omega} \epsilon^2 \nabla \phi^h \cdot \nabla w_{\mu}^h d\Omega= 0.
@@ -105,7 +105,7 @@ The strong form of our model defined by Eqns. \eqref{st1}--\eqref{st7} is now ca
 
 The solutions $$\phi^h$$ and $$\mu^h$$ are defined as
 \begin{equation}
-    \phi^h(\mathbf{x},t)=\sum_{A=1}^{n_f}\phi_A\left ( t \right )N_A\left ( \mathbf{x} \right )
+    \phi^h(\mathbf{x},t)=\sum_{A=1}^{n_f}\phi_A\left ( t \right )N_A\left ( \mathbf{x} \right ),
 \end{equation}
 \begin{equation}
     \mu^h(\mathbf{x},t)=\sum_{A=1}^{n_f}\mu_A\left ( t \right )N_A\left ( \mathbf{x} \right ).
@@ -134,7 +134,7 @@ with inner radius $$R_1=0.5$$ and outer radius $$R_2=1$$. We employ a computatio
 The usual setup for numerical simulations of the Cahn-Hilliard equation is as follows: a randomly
 perturbed homogeneous solution is allowed to evolve in a sufficiently large computational domain with periodic boundary conditions. Periodic boundary conditions would make no sense in our case, since we are not considering a square domain. Instead, we prescribe free-flux boundary conditions on the entire domain for $$\phi$$ and $$\mu$$. The initial condition is given by
 \begin{equation}
-    \phi_0\left(\mathbf{x}\right)=\bar{\phi}+r
+    \phi_0\left(\mathbf{x}\right)=\bar{\phi}+r,
 \end{equation}
 where $$\bar{\phi}$$ is a constant (referred to as the volume fraction) and $$r$$ is a random variable with uniform distribution in $$[-0.05,0.05]$$.
 
