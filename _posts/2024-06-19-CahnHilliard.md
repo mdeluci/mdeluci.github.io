@@ -92,17 +92,21 @@ also referred to as sharpness parameter, where $$L_0$$ is a length scale of the 
 ## Results
 We consider the split form of the Cahn-Hilliard equation on an open quarter-annulus domain
 \begin{equation}
-\Omega=\left \{ \left(x,y\right) \in \mathbb{R}^2_{>0}: R_1^2<x^2+y^2<R_2^2 \right \},
+    \Omega = \left\{ (x,y) \in \mathbb{R}^2 : x > 0, y > 0, R_1^2 < x^2 + y^2 < R_2^2 \right\},
 \end{equation}
 with inner radius $$R_1=0.5$$ and outer radius $$R_2=1$$. We employ a computational mesh comprised of $$128^2$$ $$\mathcal{C}^1$$-quadratic elements; see the figure below. 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mesh.jpg" class="img-fluid rounded z-depth-1" %}
+<div class="container">
+    <div class="row justify-content-center mt-3">
+        <div class="col mt-3 mt-md-0 d-flex justify-content-center">
+            <div style="width: 50%;"> <!-- Container div to control width -->
+                {% include figure.liquid loading="eager" path="assets/img/mesh.jpg" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
     </div>
-</div>
-<div class="caption">
-    Geometry definition and mesh used for the calculations. The circular inset shows a detail of the mesh.
+    <div class="caption text-center">
+        Geometry definition and mesh used for the calculations. The circular inset shows a detail of the mesh.
+    </div>
 </div>
 
 The usual setup for numerical simulations of the Cahn-Hilliard equation is as follows: a randomly
