@@ -89,6 +89,13 @@ The parameter $$\epsilon$$ is a positive constant that defines the length scale 
 
 also referred to as sharpness parameter, where $$L_0$$ is a length scale of the problem. Here, we will assume that $$L_0$$ is a measure of the computational domain size. Without loss of generality, $$L_0=R_2=1.0$$ will be the outer radius of the quarter of annulus. The sharpness parameter $\alpha$ usually takes values in the range $$10^3-10^4$$ \cite{GOMEZ20084333,Gomez2}. We will study the evolution of the phase-field variable for different values of $$\alpha$$.
 
+## Results
+We consider the split form of the Cahn-Hilliard equation on an open quarter-annulus domain
+\begin{equation}
+\Omega=\left \{\left(x,y\right) \in \mathbb{R}^2_{>0}: R_1^2<x^2+y^2<R_2^2 \right \},
+\end{equation}
+with inner radius $$R_1=0.5$$ and outer radius $$R_2=1$$. We employ a computational mesh comprised of $$128^2$$ $$\mathcal{C}^1$$-quadratic elements; see the figure below. 
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mesh.jpg" class="img-fluid rounded z-depth-1" %}
@@ -97,6 +104,15 @@ also referred to as sharpness parameter, where $$L_0$$ is a length scale of the 
 <div class="caption">
     Geometry definition and mesh used for the calculations. The circular inset shows a detail of the mesh.
 </div>
+
+The usual setup for numerical simulations of the Cahn-Hilliard equation is as follows: a randomly
+perturbed homogeneous solution is allowed to evolve in a sufficiently large computational domain with periodic boundary conditions. Periodic boundary conditions would make no sense in our case, since we are not considering a square domain. Instead, we prescribe free-flux boundary conditions on the entire domain for $$\phi$$ and $$\mu$$. The initial condition is given by
+\begin{equation}
+    \phi_0\left(\bm{x}\right)=\bar{\phi}+r
+\end{equation}
+where $\bar{\phi}$ is a constant (referred to as the volume fraction) and $$r$$ is a random variable with uniform distribution in $$[-0.05,0.05]$$.
+
+With this numerical setup we present two test cases which are defined by the sharpness parameter $\alpha$ and the volume fraction $$\bar{\phi}$$. We take $$\alpha=1500$$, $$\bar{\phi}=0.3$$ for the first case, and $$\alpha=3000$$, $$\bar{\phi}=0.1$$ for the second case.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -109,3 +125,6 @@ also referred to as sharpness parameter, where $$L_0$$ is a length scale of the 
 <div class="caption">
     Evolution of the phase-field from a randomly perturbed initial condition. Left and right show the snapshots over time for different initial conditions. 
 </div>
+
+## Conclusions 
+We presented a numerical methodology to solve the Cahn-Hilliard equation on a quarter-annulus domain. Our computational method is based on isogeometric analysis, which allows us to generate the $$\mathcal{C}^1$$-continuous functions required to solve this equation in a variational framework. We adopt the split form of the equation to reduce its order, and facilitate the imposition of the boundary conditions on the circular geometry. Time discretazion is performed using the generalized $$\alpha$$-methods, which provides second order accuracy and $$A$$-stability. We analyzed the solution over time for different values of $$\alpha$$ and $$\bar{\phi}$$. The parameter $$\alpha$$ affects the thickness of the interface and the time scale of the problem. As we increased $$\alpha$$, the separation process was faster, and the thickness of the interface became thinner. The initial volume fraction $$\bar{\phi}$$ modifies the topology of the solution. Smaller values of $$\bar{\phi}$$ produce more continuous patterns without nucleation.
