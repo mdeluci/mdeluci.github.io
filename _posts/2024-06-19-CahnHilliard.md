@@ -110,7 +110,7 @@ The solutions $$\phi^h$$ and $$\mu^h$$ are defined as
 ## Results
 We consider the split form of the Cahn-Hilliard equation on an open quarter-annulus domain
 \begin{equation}
-    \Omega = \left\{ (x,y) \in \mathbb{R}^2 : x > 0, y > 0, R_1^2 < x^2 + y^2 < R_2^2 \right\},
+    \Omega = \{ (x,y) \in \mathbb{R}^2 : x > 0, y > 0, R_1^2 < x^2 + y^2 < R_2^2 \},
 \end{equation}
 with inner radius $$R_1=0.5$$ and outer radius $$R_2=1$$. We employ a computational mesh comprised of $$128^2$$ $$\mathcal{C}^1$$-quadratic elements; see the figure below. 
 
