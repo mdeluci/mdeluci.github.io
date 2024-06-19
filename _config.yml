@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # blog_name will be displayed in your blog page
-blog_description: Some writing on computational mechanics, FEM, and continuum mechanics
+blog_description: Some writings on computational mechanics, PDEs, FEM/IGA, and parallel computing
 permalink: /blog/:year/:title/
 # lsi: false # produce an index for related posts
 
