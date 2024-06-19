@@ -92,7 +92,7 @@ also referred to as sharpness parameter, where $$L_0$$ is a length scale of the 
 ## Results
 We consider the split form of the Cahn-Hilliard equation on an open quarter-annulus domain
 \begin{equation}
-\Omega=\left \{\left(x,y\right) \in \mathbb{R}^2_{>0}: R_1^2<x^2+y^2<R_2^2 \right \},
+\Omega=\left \{ \left(x,y\right) \in \mathbb{R}^2_{>0}: R_1^2<x^2+y^2<R_2^2 \right \},
 \end{equation}
 with inner radius $$R_1=0.5$$ and outer radius $$R_2=1$$. We employ a computational mesh comprised of $$128^2$$ $$\mathcal{C}^1$$-quadratic elements; see the figure below. 
 
@@ -108,9 +108,9 @@ with inner radius $$R_1=0.5$$ and outer radius $$R_2=1$$. We employ a computatio
 The usual setup for numerical simulations of the Cahn-Hilliard equation is as follows: a randomly
 perturbed homogeneous solution is allowed to evolve in a sufficiently large computational domain with periodic boundary conditions. Periodic boundary conditions would make no sense in our case, since we are not considering a square domain. Instead, we prescribe free-flux boundary conditions on the entire domain for $$\phi$$ and $$\mu$$. The initial condition is given by
 \begin{equation}
-    \phi_0\left(\bm{x}\right)=\bar{\phi}+r
+    \phi_0\left(\mathbf{x}\right)=\bar{\phi}+r
 \end{equation}
-where $\bar{\phi}$ is a constant (referred to as the volume fraction) and $$r$$ is a random variable with uniform distribution in $$[-0.05,0.05]$$.
+where $$\bar{\phi}$$ is a constant (referred to as the volume fraction) and $$r$$ is a random variable with uniform distribution in $$[-0.05,0.05]$$.
 
 With this numerical setup we present two test cases which are defined by the sharpness parameter $\alpha$ and the volume fraction $$\bar{\phi}$$. We take $$\alpha=1500$$, $$\bar{\phi}=0.3$$ for the first case, and $$\alpha=3000$$, $$\bar{\phi}=0.1$$ for the second case.
 
