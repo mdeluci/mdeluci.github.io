@@ -5,6 +5,7 @@ date: 2024-06-19 02:52:00-0400
 description: We solve the Cahn-Hilliard equation on a quarter of annulus by means of isogeometric analysis. We adopt the split form of the equation to avoid introducing fourth-order operators and facilitate the imposition of the boundary conditions on the circular geometry,
 tags: Cahn-Hilliard PDEs IGA
 categories: Projects
+thumbnail: assets/img/fig2_ch.jpg
 related_posts: false
 ---
 
