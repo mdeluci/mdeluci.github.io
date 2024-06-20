@@ -32,7 +32,7 @@ Organize your courses by years, topics, or universities, however you like!
     main/.style={draw, rectangle, rounded corners, fill=blue!20, text width=3cm},
     sub/.style={draw, rectangle, rounded corners, fill=green!20, text width=3cm},
     course/.style={draw, rectangle, rounded corners, fill=yellow!20, text width=3cm},
-    connect/.style={-latex, thick}
+    connect/.style={-latex, thick, orange}
     ]
 
 % Central node
