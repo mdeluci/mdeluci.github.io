@@ -10,7 +10,7 @@ related_posts: false
 ---
 
 ## Phase-field equation for solidification processes
-The Cahn–Hilliard equation describes the process of phase separation, by which the two components of a binary fluid spontaneously separate and form domains pure in each component. It was originally proposed in 1958 to model phase separation in binary alloys {% cite Cahn-Hilliard Cahn-Hilliard2 --collection external_references %}. Since then it has been used to describe various phenomena, such as spinodal decomposition {% cite MARALDI201231 --collection external_references %}, diblock copolymer {% cite Choksi --collection external_references %}, image inpainting {% cite 4032803 --collection external_references %}, tumor growth simulation {% cite tumor --collection external_references %} or multiphase fluid flows {% cite BADALASSI2003371 --collection external_references %}.
+Liquid-solid phase transformations usually refer to solidification and melting. The formation of complex microstructures during the solidification from a liquid phase, such as formation of snow flakes or metallic alloys, and the accompanying diffusion and convection processes in the liquid and solid have been widely studied in the literature [1, 2, 3]. In particular, the evolution of microstructural scale of dendrites during the solidification process determines many physical and mechanical properties of metals, since almost every metallic system originates from the liquid state.
 
 <div class="container">
     <div class="row justify-content-center mt-3">
