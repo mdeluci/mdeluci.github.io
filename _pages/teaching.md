@@ -8,9 +8,7 @@ nav_order: 8
 tikzjax: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+My teaching philoshpy and interests are described in the diagrams below (they take a few seconds to show. Be patient)  
 
 <script type="text/tikz">
 \begin{tikzpicture}[
