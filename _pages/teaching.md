@@ -59,13 +59,12 @@ My teaching philoshpy and interests are described in the diagrams below (they ta
 
 <script type="text/tikz">
 \begin{tikzpicture}[
-    node distance=2cm,
-    node distance=3cm and 2cm, % Increase node distance for better spread
+    node distance=3cm and 2cm, % Corrected node distance declaration
     every node/.style={draw, rectangle, rounded corners, align=center},
-    main/.style={draw, rectangle, rounded corners, fill=blue!20, text width=4cm}, % Adjust text width
-    sub/.style={draw, rectangle, rounded corners, fill=green!20, text width=4cm}, % Adjust text width
-    connect/.style={-latex, thick, orange} % Use orange color for visibility
-    ]
+    main/.style={draw, rectangle, rounded corners, fill=blue!20, text width=4cm},
+    sub/.style={draw, rectangle, rounded corners, fill=green!20, text width=4cm},
+    connect/.style={-latex, thick, orange}
+]
 
 % Central node
 \node[main] (focus) {Teaching Focus:\\ Practical Impact of Computational Modeling};
