@@ -5,7 +5,7 @@ date: 2024-06-20 02:52:00-0400
 description: we solve a phase-field model of dendritic soldification with surface tension anisotropy by means of isogeometric analysis.
 tags: Phase-field PDEs IGA
 categories: Projects
-thumbnail: assets/img/fig2_ch.jpg
+thumbnail: assets/img/sol_1.jpg
 related_posts: false
 ---
 
