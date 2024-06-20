@@ -8,7 +8,7 @@ nav_order: 8
 tikzjax: true
 ---
 
-My teaching philoshpy and interests are described in the diagrams below (they take a few seconds to show. Be patient)  
+My teaching philosophy and interests are described in the diagrams below (they take a few seconds to show. Be patient)  
 
 <script type="text/tikz">
 \begin{tikzpicture}[
