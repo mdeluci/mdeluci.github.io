@@ -161,3 +161,6 @@ The right figure below shows snapshots of the solution at different times for $$
 
 ## Conclusions 
 We presented a numerical methodology to solve the Cahn-Hilliard equation on a quarter-annulus domain. Our computational method is based on isogeometric analysis, which allows us to generate the $$\mathcal{C}^1$$-continuous functions required to solve this equation in a variational framework. We adopt the split form of the equation to reduce its order, and facilitate the imposition of the boundary conditions on the circular geometry. Time discretazion is performed using the generalized $$\alpha$$-methods, which provides second order accuracy and $$A$$-stability. We analyzed the solution over time for different values of $$\alpha$$ and $$\bar{\phi}$$. The parameter $$\alpha$$ affects the thickness of the interface and the time scale of the problem. As we increased $$\alpha$$, the separation process was faster, and the thickness of the interface became thinner. The initial volume fraction $$\bar{\phi}$$ modifies the topology of the solution. Smaller values of $$\bar{\phi}$$ produce more continuous patterns without nucleation.
+
+## References
+{% bibliography --cited %}
