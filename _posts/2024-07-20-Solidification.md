@@ -88,3 +88,6 @@ In the first computation, perfect isotropic growth is considered, i.e. $$\sigma=
 
 ## Conclusions
 We presented a numerical methodology to solve a phase-field model of dendritic solidification with surface tension anisotropy on a two-dimensional domain. Our computational method is based on isogeometric analysis, which allows us to generate the $$\mathcal{C}^1$$-continuous functions required to solve this equation in a variational framework. Time discretazion is performed using the generalized $$\alpha$$-method, which provides second order accuracy and $$A$$-stability. We analyzed the evolution of the phase-field variable and the temperature field over time for different anisotropy mode numbers. Our results show that symmetric dendritic finger patterns can form in the presence of anisotropy.
+
+## References
+{% bibliography --cited %}
