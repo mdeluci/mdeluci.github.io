@@ -44,7 +44,7 @@ where $$\phi \in [-1,1]$$ represents the phase-field variable, which describes t
 where $$\bar{\sigma}$$ is the mean value of $$\sigma$$, $$\delta$$ is the strenght of the anisotropy, $$q$$ is the mode number of anisotropy, and $$\alpha$$ is the initial offset angle. The angle of the normal to the surface, $$\alpha$$, is defined from the phase-field as
 
 \begin{equation}
-\alpha = \arctan\left(\frac{\partial \phi}{\partial y}/\frac{\partial \phi}{\partial x}\right).
+\alpha = \arctan\left(\frac{\partial \phi / \partial y}{\partial \phi/ \partial x}\right).
 \end{equation}
 
 ## Weak form
