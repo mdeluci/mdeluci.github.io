@@ -61,10 +61,10 @@ such that $$\forall W_h = \{w_{\phi}^h, w_{\theta}^h\} \in V_h \subset V$$,
 
 The solutions $$\phi^h$$ and $$\theta^h$$ are defined as
 \begin{equation}
-\phi^h(x,t) &= \sum_{A=1}^{n_f} \phi_A(t) N_A(x),
+\phi^h(x,t) = \sum_{A=1}^{n_f} \phi_A(t) N_A(x),
 \end{equation}
 \begin{equation}
-\theta^h(x,t) &= \sum_{A=1}^{n_f} \theta_A(t) N_A(x).
+\theta^h(x,t) = \sum_{A=1}^{n_f} \theta_A(t) N_A(x).
 \end{equation}
 
 
