@@ -52,17 +52,18 @@ The strong form of our model defined by Eqs. \eqref{1} and Eqn.\eqref{2} is now 
 
 such that $$\forall W_h = \{w_{\phi}^h, w_{\theta}^h\} \in V_h \subset V$$,
 \begin{equation}
-B(W_h, U_h) = & \int_{\Omega} w_{\phi}^h \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} w_{\phi}^h \frac{W'(\phi^h)}{\epsilon^2} \, d\Omega + \int_{\Omega} \nabla w_{\phi}^h \cdot \nabla \phi^h \, d\Omega \\
+\int_{\Omega} w_{\phi}^h \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} w_{\phi}^h \frac{W'(\phi^h)}{\epsilon^2} \, d\Omega + \int_{\Omega} \nabla w_{\phi}^h \cdot \nabla \phi^h \, d\Omega + \int_{\Omega} w_{\phi}^h \frac{\rho H}{\sqrt{2 \sigma}} \left( \frac{G'(\phi^h) (\theta^h - \theta_m)}{\theta_m} \right) \, d\Omega =0,
+\end{equation}
 
-
-+ \int_{\Omega} w_{\phi}^h \frac{\rho H}{\sqrt{2 \sigma}} \left( \frac{G'(\phi^h) (\theta^h - \theta_m)}{\theta_m} \right) \, d\Omega + \int_{\Omega} w_{\theta}^h \rho C_v \frac{\partial \theta^h}{\partial t} \, d\Omega \\
-
-- \int_{\Omega} w_{\theta}^h L \phi'(\phi^h) \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} \nabla w_{\theta}^h \cdot k(\phi^h) \nabla \theta^h \, d\Omega.
+\begin{equation}
+\int_{\Omega} w_{\theta}^h \rho C_v \frac{\partial \theta^h}{\partial t} \, d\Omega - \int_{\Omega} w_{\theta}^h L \phi'(\phi^h) \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} \nabla w_{\theta}^h \cdot k(\phi^h) \nabla \theta^h \, d\Omega=0.
 \end{equation}
 
 The solutions $$\phi^h$$ and $$\theta^h$$ are defined as
 \begin{equation}
-\phi^h(x,t) &= \sum_{A=1}^{n_f} \phi_A(t) N_A(x), \\
+\phi^h(x,t) &= \sum_{A=1}^{n_f} \phi_A(t) N_A(x),
+\end{equation}
+\begin{equation}
 \theta^h(x,t) &= \sum_{A=1}^{n_f} \theta_A(t) N_A(x).
 \end{equation}
 
