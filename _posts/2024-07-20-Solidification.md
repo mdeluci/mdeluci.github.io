@@ -44,24 +44,27 @@ where $$\phi \in [-1,1]$$ represents the phase-field variable, which describes t
 where $$\bar{\sigma}$$ is the mean value of $$\sigma$$, $$\delta$$ is the strenght of the anisotropy, $$q$$ is the mode number of anisotropy, and $$\alpha$$ is the initial offset angle. The angle of the normal to the surface, $$\alpha$$, is defined from the phase-field as
 
 \begin{equation}
-\alpha = \arctan\left(\frac{\frac{\partial \phi}{\partial y}}{\frac{\partial \phi}{\partial x}}\right).
+\alpha = \arctan\left(\frac{\partial \phi}{\partial y}/\frac{\partial \phi}{\partial x}\right).
 \end{equation}
 
 ## Weak form
 The strong form of our model defined by Eqs. \eqref{1} and Eqn.\eqref{2} is now cast in weak form and discretized using the Galerkin approach. Let us define the functional space $$V \subset H^1$$, where $$H^1$$ is the Sobolev space of square-integrable functions with square-integrable first derivative in the domain $$\Omega$$. To perform space discretization we introduce the finite-dimensional space $$V_h \subset V$$, where $$V_h = \text{span} \{ N_A \}_{A=1}^{n_f}$$, and $$n_f$$ is the number of functions on the basis. The space of weighting functions will also be $$V_h$$, giving rise to a Galerkin formulation. We define discrete approximations to the problem's solution denoted by $$\phi^h$$ and $$\theta^h$$. Their corresponding weighting functions are $$w_{\phi}^h$$ and $$w_{\theta}^h$$. Then, the variational formulation of Eqs. \eqref{1} and Eqn.\eqref{2} over the finite-dimensional space $$V_h$$ can be stated as follows: find $$U_h = \{\phi^h, \theta^h\} \in V_h \subset V$$
 
 such that $$\forall W_h = \{w_{\phi}^h, w_{\theta}^h\} \in V_h \subset V$$,
-\begin{align}
+\begin{equation}
 B(W_h, U_h) = & \int_{\Omega} w_{\phi}^h \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} w_{\phi}^h \frac{W'(\phi^h)}{\epsilon^2} \, d\Omega + \int_{\Omega} \nabla w_{\phi}^h \cdot \nabla \phi^h \, d\Omega \\
-& + \int_{\Omega} w_{\phi}^h \frac{\rho H}{\sqrt{2 \sigma}} \left( \frac{G'(\phi^h) (\theta^h - \theta_m)}{\theta_m} \right) \, d\Omega + \int_{\Omega} w_{\theta}^h \rho C_v \frac{\partial \theta^h}{\partial t} \, d\Omega \\
-& - \int_{\Omega} w_{\theta}^h L \phi'(\phi^h) \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} \nabla w_{\theta}^h \cdot k(\phi^h) \nabla \theta^h \, d\Omega.
-\end{align}
+
+
++ \int_{\Omega} w_{\phi}^h \frac{\rho H}{\sqrt{2 \sigma}} \left( \frac{G'(\phi^h) (\theta^h - \theta_m)}{\theta_m} \right) \, d\Omega + \int_{\Omega} w_{\theta}^h \rho C_v \frac{\partial \theta^h}{\partial t} \, d\Omega \\
+
+- \int_{\Omega} w_{\theta}^h L \phi'(\phi^h) \frac{\partial \phi^h}{\partial t} \, d\Omega + \int_{\Omega} \nabla w_{\theta}^h \cdot k(\phi^h) \nabla \theta^h \, d\Omega.
+\end{equation}
 
 The solutions $$\phi^h$$ and $$\theta^h$$ are defined as
-\begin{align}
+\begin{equation}
 \phi^h(x,t) &= \sum_{A=1}^{n_f} \phi_A(t) N_A(x), \\
 \theta^h(x,t) &= \sum_{A=1}^{n_f} \theta_A(t) N_A(x).
-\end{align}
+\end{equation}
 
 
 <div class="row mt-3">
