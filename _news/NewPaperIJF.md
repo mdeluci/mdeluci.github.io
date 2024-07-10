@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our paper on modeling drug transport and absorption in subcutaneous injection of monoclonal antibodies just gor published in the International Journal of Pharmaceutics
+title: Our paper on modeling drug transport and absorption in subcutaneous injection of monoclonal antibodies just got published in the International Journal of Pharmaceutics
 date: 2024-07-10 03:00:00-0400
 inline: false
 related_posts: false
