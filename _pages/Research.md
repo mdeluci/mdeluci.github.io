@@ -13,7 +13,7 @@ Our research adopts a holistic approach to simulate all phases involved in the c
 
 ![CIVIL](/assets/img/CIVIL.jpg){: width="100%" }
 
-Related publications: Proyecto constructivo del nuevo puente de carretera para la unión de las villas de Laredo y Santoña (Cantabria), Mario de Lucio, Arturo Antón, Revista de Obras Públicas: Organo profesional de los Ingenieros de Caminos, Canales y Puertos, 2020
+Related publications: [Proyecto constructivo del nuevo puente de carretera para la unión de las villas de Laredo y Santoña (Cantabria)](https://dialnet.unirioja.es/servlet/articulo?codigo=7486537), Mario de Lucio, Arturo Antón, Revista de Obras Públicas: Organo profesional de los Ingenieros de Caminos, Canales y Puertos, 2020
 
 #### INDUSTRIAL ENGINEERING AND ADDITIVE MANUFACTURING APPLICATIONS
 
@@ -21,7 +21,7 @@ Our research embodies a comprehensive approach to enhancing production systems a
 
 ![INDUSTRIAL](/assets/img/INDUSTRIAL.jpg){: width="100%" }
 
-Related publications: Testing and simulation of additively manufactured AlSi10Mg components under quasi-static loading, Miguel Costas, David Morin, Mario de Lucio and Magnus Langseth, European Journal of Mechanics - A/Solids, 2020.
+Related publications: [Testing and simulation of additively manufactured AlSi10Mg components under quasi-static loading](https://www.sciencedirect.com/science/article/pii/S0997753819306758), Miguel Costas, David Morin, Mario de Lucio and Magnus Langseth, European Journal of Mechanics - A/Solids, 2020.
 
 #### HYDRAULIC AND ENVIRONMENTAL ENGINEERING APPLICATIONS
 
@@ -29,4 +29,4 @@ Our research is dedicated to advancing the understanding and management of water
 
 ![HYDRAULIC](/assets/img/HYDRAULIC.jpg){: width="100%" }
 
-Related publications: Environmental rehabilitation and channeling of the Juan Díaz River in Panama City, Mario de Lucio, Bachelor's thesis. University of A Coruna, 2017.
+Related publications: [Environmental rehabilitation and channeling of the Juan Díaz River in Panama City](https://ruc.udc.es/dspace/handle/2183/19429), Mario de Lucio, Bachelor's thesis. University of A Coruna, 2017.
