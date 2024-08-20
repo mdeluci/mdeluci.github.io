@@ -17,6 +17,7 @@ Our research adopts a holistic approach to simulate all phases involved in the c
 
 <p style="text-align: justify;">
 Related publications: [Proyecto constructivo del nuevo puente de carretera para la unión de las villas de Laredo y Santoña (Cantabria)](https://dialnet.unirioja.es/servlet/articulo?codigo=7486537), Mario de Lucio, Arturo Antón, Revista de Obras Públicas: Organo profesional de los Ingenieros de Caminos, Canales y Puertos, 2020
+</p>
 
 #### INDUSTRIAL ENGINEERING AND ADDITIVE MANUFACTURING APPLICATIONS
 
