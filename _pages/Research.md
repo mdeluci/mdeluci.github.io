@@ -9,7 +9,9 @@ nav_order: 2
 
 #### CIVIL AND STRUCTURAL ENGINEERING APPLICATIONS
 
+<p style="text-align: justify;">
 Our research adopts a holistic approach to simulate all phases involved in the construction of complex infrastructures. We meticulously explore every step, from the initial constructive processes to the final design, integrating cutting-edge simulation technologies and analytical methods. This comprehensive methodology allows us to address and optimize the multifaceted aspects of building resilient and innovative structures that meet modern demands and stand the test of time. Through our work, we aim to enhance construction efficiency and safety, ensuring that each project not only meets but exceeds industry standards. 
+</p>
 
 ![CIVIL](/assets/img/CIVIL.jpg){: width="100%" }
 
