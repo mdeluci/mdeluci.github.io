@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mario de Lucio wins the Runner-up award in the Poromechanics student competition at the Engineering Mechanics Institute Conference in Atlanta, GA.
-date: 2023-07-25 03:00:00-0400
+date: 2023-07-03 03:00:00-0400
 inline: false
 related_posts: false
 ---
