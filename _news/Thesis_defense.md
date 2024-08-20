@@ -5,8 +5,9 @@ date: 2024-04-03 03:00:00-0400
 inline: false
 related_posts: false
 ---
-
+<p style="text-align: justify;">
 Mario has successfully defended his PhD Dissertation titled "Numerical Simulation and Poromechanical Modeling of Subcutaneous Injection of Monoclonal Antibodies". The PhD thesis committee was composed by Prof. Hector Gomez (Chair), Prof. Adrian Buganza Tepole, Prof. Arezoo M. Ardekani and Prof. Luis Solorio.
+</p>
 
 ![PhD Defense](/assets/img/phd_defense.jpg){: width="750" }
 
