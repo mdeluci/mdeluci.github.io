@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Slides</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        video {
+            width: 80%;
+            margin: 20px 0;
+        }
+        .controls {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Interactive Slides</h1>
+
+<video id="video" controls>
+    <source src="your_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<div class="controls" id="controls">
+    <!-- Buttons will be dynamically added here -->
+</div>
+
+<script>
+    // Load the JSON file
+    fetch('your_json_file.json')
+        .then(response => response.json())
+        .then(data => {
+            const video = document.getElementById('video');
+            const controls = document.getElementById('controls');
+
+            // Create buttons for each fragment
+            data.forEach((fragment, index) => {
+                const button = document.createElement('button');
+                button.textContent = `Slide ${index + 1}`;
+                button.className = 'button';
+                button.addEventListener('click', () => {
+                    video.currentTime = fragment.time_start;
+                });
+                controls.appendChild(button);
+            });
+        });
+</script>
+
+</body>
+</html>
