@@ -13,7 +13,7 @@ Talk by Dr. de Lucio at the 2024 Annual Robert J. Melosh Medal Competition for t
 </p>
 
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=WyP79u2AvNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WyP79u2AvNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <br/><br/>
 
