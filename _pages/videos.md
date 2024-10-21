@@ -7,6 +7,16 @@ nav: true
 nav_order: 9
 ---
 
+#### 2024 Robert J. Melosh Medal Competition || Mario de Lucio
+<p style="text-align: justify;">
+Talk by Dr. de Lucio at the 2024 Annual Robert J. Melosh Medal Competition for the Best Student Paper on Finite Element Analysis held at Duke University on October 14th.
+</p>
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=WyP79u2AvNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<br/><br/>
+
 #### Poromechanical modeling and numerical simulation of subcutaneous injection of monoclonal antibodies
 <p style="text-align: justify;">
 Talk by Mario de Lucio at the Computational Interdisciplinary Graduate Programs (CIGP) Fall 2023 Symposium Seminar.
