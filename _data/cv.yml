@@ -114,6 +114,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+  - year: 2024
+      items:
+        - Robert J. Melosh Medal Finalist for the Best Student Paper on Computational Mechanics and Finite Element Analysis.
     - year: 2023
       items:
         - <a href="https://engineering.purdue.edu/ME/News/2023/purdue-me-grad-students-receive-fellowships-and-scholarships">Ben M. Hillberry Graduate Scholarship</a>, for PhD students pursuing research in the areas of biomechanics and materials, School of Mechanical Engineering, Purdue University.
