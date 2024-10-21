@@ -13,6 +13,6 @@ This achievement wouldn’t have been possible without the invaluable support of
 
 I would also like to dedicate my participation to the late Professor Manuel Casteleiro, for everything he did for the field of computational mechanics in Spain.
 
-![Melosh1](/assets/img/Melosh1.JPG){: width="750" }
+![Melosh1](/assets/img/Melosh1.jpg){: width="750" }
 
-![Melosh2](/assets/img/Melosh2.JPG){: width="750" }
+![Melosh2](/assets/img/Melosh2.jpg){: width="750" }
