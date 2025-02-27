@@ -15,3 +15,7 @@ For the past six years, I’ve had the privilege of collaborating with Lilly on 
 ![Lilly2](/assets/img/Lilly2.jpg){: width="750" }
 
 Check out the campaign video here:
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=uYsydt2YgBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<br/><br/>
