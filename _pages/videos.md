@@ -7,6 +7,16 @@ nav: true
 nav_order: 9
 ---
 
+#### This is Purdue University: Where partnerships change the world
+<p style="text-align: justify;">
+With a focus on real-world applications, Purdue researchers collaborate with Lilly scientists to develop next-generation drug products designed for scalable manufacturing.
+</p>
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uYsydt2YgBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<br/><br/>
+
 #### 2024 Robert J. Melosh Medal Competition || Mario de Lucio
 <p style="text-align: justify;">
 Talk by Dr. de Lucio at the 2024 Annual Robert J. Melosh Medal Competition for the Best Student Paper on Finite Element Analysis held at Duke University on October 14th.
