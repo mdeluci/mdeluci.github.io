@@ -37,9 +37,18 @@
 - title: Experience
   type: time_table
   contents:
+   - title: Post Doctoral Scientist
+      institution: Eli Lilly and Company, Indianapolis, IN, USA
+      year: Apr 2025 - Present
+      description:
+        - Applied resourceful and innovative thinking to develop and validate computer simulation-based approaches to problems related to various drug delivery modalities. Demonstrate ability to utilize computational modeling to address impactful questions relating to various drug delivery modalities.
+        - Leveraged a strong theoretical and technical background in bio transport, continuum mechanics, FEA/CFD modeling, and simulation to develop and execute the modeling of drug delivery modalities such as injections, drug diffusion, and elution using commercial or open-source simulation platforms.
+        - Demonstrated the ability to work effectively within a cross-functional team environment but show initiative to undertake and drive independent research problems to completion.
+        - Showed learning agility and willingness to rapidly learn the fundamental concepts, project requirements and regulatory and competitive landscape around making innovative drug delivery solutions.
+        
     - title: Research Scientist
       institution: <a href="https://www.purdue.edu/research/rche/">Regenstrief Center for Healthcare Engineering</a>, Purdue University, IN, USA
-      year: Jul 2024 - Present
+      year: Jul 2024 - Apr 2025
       description:
         - Engaged in a strategic collaboration between Eli Lilly and Purdue University, concentrating on the analysis and optimization of injectable medicine delivery systems.
         - Conducted advanced numerical simulations to enhance understanding of the auto-injection process mechanics, aiming to improve drug bioavailability, minimize injection site pain, and boost patient compliance and overall health.        - Developed high-fidelity computational models using the Finite Element Method and Isogeometric Analysis to understand and and predict tissue deformation and fluid pressure build-up as well as their impact on drug transport and absorption.
