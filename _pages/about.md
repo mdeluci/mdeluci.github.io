@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Post Doctoral Scientist at Eli Lilly and Company working in Drug Delivery and New Product Innovation (DDNPI) within Delivery, Devices and Connected Solutions (DDCS).
+I am a Post Doctoral Scientist at `Eli Lilly and Company` working in Drug Delivery and New Product Innovation (DDNPI) within Delivery, Devices and Connected Solutions (DDCS).
 
 I consider myself a computational mechanician, I develop new modeling and computer-based simulation techniques to address real-world problems in mechanical and biomedical engineering. The core of my research philosophy lies in bridging the gap between computational theory and practical application. I am interested in tailoring computational models to capture the complex dynamics occurring at the intersection between biology and mechanics, providing insights that are not easily attainable through experimental methods alone.
 
