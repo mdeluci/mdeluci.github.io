@@ -1,7 +1,7 @@
 ---
 layout: post
-title: We just released AneuPy: An open source Python tool for creating simulation-ready geometries of abdominal aortic aneurysms
-date: 2025-04-24 03:00:00-0400
+title: Our paper on a MPET2-mPBPK model for subcutaneous injection of biotherapeutics with different molecular weights has been published in Computer Methods and Programs in Biomedicine.
+date: 2024-12-12 03:00:00-0400
 inline: false
 related_posts: false
 ---
