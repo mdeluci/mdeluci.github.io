@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We just released AneuPy: an open-source Python tool for generating simulation-ready geometries of abdominal aortic aneurysms
+title: We just released AneuPy
 date: 2025-04-24 03:00:00-0400
 inline: false
 related_posts: false
