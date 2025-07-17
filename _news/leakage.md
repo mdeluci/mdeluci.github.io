@@ -16,4 +16,4 @@ Our goal is to support better design of drug delivery devices and protocols that
 
 - [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5353991)
  
-![Leakage](/assets/img/Leakage.png){: width="750" }
+![Leakage](/assets/img/Leakage.jpg){: width="750" }
