@@ -30,8 +30,8 @@ There are two main approaches to describing phase transition phenomena: sharp-in
 From the mathematical point of view, the Cahn-Hilliard equation is a stiff, fourth-order, nonlinear parabolic partial differential equation. The elementary form of the Cahn-Hilliard equation is given by
 
 \begin{equation}
-    \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \left(W'\left(\phi\right) -\epsilon  ^2 \Delta \phi \right)  \right)
     \label{element}
+    \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \left(W'\left(\phi\right) -\epsilon  ^2 \Delta \phi \right)  \right)
 \end{equation} 
 
 
@@ -40,12 +40,13 @@ where $$\phi\left(\mathbf{x},t\right) \in [-1,1]$$ represents the phase-field va
 Two different approaches have been used to solve the Cahn-Hilliard equation: solving the original form given by Eqn.\eqref{element}, which involves fourth-order operators, or by splitting it into two second order partial differential equations by introducing an auxiliary variable --- the chemical potential $$\mu$$. The split version of the equation is given by
 
 \begin{equation}
-    \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \mu \right)
     \label{split1}
+    \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \mu \right)
 \end{equation}
+
 \begin{equation}
-\mu=W'\left(\phi \right) - \epsilon^2 \Delta \phi.
-\label{chempot}
+    \label{chempot}
+    \mu=W'\left(\phi \right) - \epsilon^2 \Delta \phi.
 \end{equation}
 
 The splitting strategy was proposed by Elliot {% cite Elliott1989ASO --collection external_references %} to avoid constraints related to the continuity of the basis functions when using the finite element method with a primal formulation. It also facilitates the imposition of the boundary conditions on a circular geometry, which is the case we are interested in. Unfortunately, this comes at a price of an additional degree of freedom introduced into the solver. Nevertheless, this reformulation reduces the complexity of the problem from the numerical point of view (see {% cite Zee --collection external_references %}).
@@ -55,7 +56,8 @@ The spatial discretization of the governing equations is performed using isogeom
 The strong form of the problem is formulated as follows: find $$\phi:\Omega \times \left[0,T\right]\rightarrow \mathbb{R}$$ and $$\mu:\Omega \times \left[0,T\right]\rightarrow \mathbb{R}$$ (being $$\mu$$ an  auxiliary variable) such that:
 
 \begin{equation}
-    \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \mu\right) \quad \text{in} \ \Omega \times \left[0,T\right],  \label{st1}
+    \label{st1}
+    \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \mu\right) \quad \text{in} \ \Omega \times \left[0,T\right],  
 \end{equation}   
 \begin{equation}
     \mu=W'\left(\phi\right)-\epsilon^2 \Delta \phi \quad \text{in} \ \Omega \times \left[0,T\right], \label{st2}
