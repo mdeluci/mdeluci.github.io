@@ -14,6 +14,6 @@ We developed a multiphysics computational model using FEniCS Project, combining 
 
 Our model captures short-term transport and long-term absorption, and explores the impact of buffer pH, BMI, injection depth, and formulation concentration, with comparisons to experimental data from the literature.
 
-- [Preprint](https://arxiv.org/abs/2601.00505)
+- Preprint available here: [Preprint](https://arxiv.org/abs/2601.00505)
  
 ![Electric](/assets/img/electric.png){: width="750" }
