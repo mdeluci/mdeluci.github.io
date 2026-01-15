@@ -11,7 +11,7 @@ related_posts: false
 ---
 
 ## Phase-field equation for solidification processes
-Liquid-solid phase transformations usually refer to solidification and melting. The formation of complex microstructures during the solidification from a liquid phase, such as formation of snow flakes or metallic alloys, and the accompanying diffusion and convection processes in the liquid and solid have been widely studied in the literature {% cite boettinger2002phase flemings1974solidification kuhn1986fundamentals --collection external_references %}. In particular, the evolution of microstructural scale of dendrites during the solidification process determines many physical and mechanical properties of metals, since almost every metallic system originates from the liquid state. $$\phi \in [-1,1]$$
+Liquid-solid phase transformations usually refer to solidification and melting. The formation of complex microstructures during the solidification from a liquid phase, such as formation of snow flakes or metallic alloys, and the accompanying diffusion and convection processes in the liquid and solid have been widely studied in the literature {% cite boettinger2002phase flemings1974solidification kuhn1986fundamentals --collection external_references %}. In particular, the evolution of microstructural scale of dendrites during the solidification process determines many physical and mechanical properties of metals, since almost every metallic system originates from the liquid state. $$$\phi \in [-1,1]$$$
 
 <div class="container">
     <div class="row justify-content-center mt-3">
