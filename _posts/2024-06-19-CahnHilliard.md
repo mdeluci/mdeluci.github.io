@@ -30,13 +30,13 @@ There are two main approaches to describing phase transition phenomena: sharp-in
 
 From the mathematical point of view, the Cahn-Hilliard equation is a stiff, fourth-order, nonlinear parabolic partial differential equation. The elementary form of the Cahn-Hilliard equation is given by
 
-$$
+\begin{equation}
     \label{element}
     \frac{\partial \phi}{\partial t}=\nabla \cdot \left(m\left(\phi\right) \nabla \left(W'\left(\phi\right) -\epsilon  ^2 \Delta \phi \right)  \right)
-$$
+\end{equation}
 
 
-where $$\phi\left(\mathbf{x},t\right) \in [-1,1]$$ represents the phase-field variable, which describes the location of different components (e.g., $$\phi=-1$$ in oil and $$\phi=1$$ in water), $$m\left(\phi\right)$$ is the mobility, $$W\left(\phi\right)$$ is the so-called double-well potential, and $$\epsilon$$ is a length scale related to the thickness of the diffuse interface. 
+where $\phi\left(\mathbf{x},t\right) \in [-1,1]$ represents the phase-field variable, which describes the location of different components (e.g., $$\phi=-1$$ in oil and $$\phi=1$$ in water), $$m\left(\phi\right)$$ is the mobility, $$W\left(\phi\right)$$ is the so-called double-well potential, and $$\epsilon$$ is a length scale related to the thickness of the diffuse interface. 
 
 Two different approaches have been used to solve the Cahn-Hilliard equation: solving the original form given by Eqn.\eqref{element}, which involves fourth-order operators, or by splitting it into two second order partial differential equations by introducing an auxiliary variable --- the chemical potential $$\mu$$. The split version of the equation is given by
 
