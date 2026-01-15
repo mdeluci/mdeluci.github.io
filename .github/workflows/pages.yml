@@ -41,6 +41,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install jupyter nbconvert
+          
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
 
       - name: Build site
         run: bundle exec jekyll build
