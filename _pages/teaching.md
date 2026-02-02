@@ -10,7 +10,7 @@ tikzjax: true
 
 My teaching philosophy and interests are described in the diagrams below (they take a few seconds to show. Be patient)  
 
-<script type="text/tikz">
+<div class="tikzjax">
 \begin{tikzpicture}[
     node distance=3cm and 4cm, % Increase node distance for better spread
     every node/.style={draw, rectangle, rounded corners, align=center},
@@ -55,9 +55,9 @@ My teaching philosophy and interests are described in the diagrams below (they t
 \draw[connect] (industry) -- (supportive);
 
 \end{tikzpicture}
-</script>
+</div>
 
-<script type="text/tikz">
+<div class="tikzjax">
 \begin{tikzpicture}[
     node distance=2cm,
     every node/.style={draw, rectangle, rounded corners, align=center},
@@ -111,4 +111,4 @@ My teaching philosophy and interests are described in the diagrams below (they t
 \draw[connect] (courses) -- (newcourses);
 
 \end{tikzpicture}
-</script>
+</div>
