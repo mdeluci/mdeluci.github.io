@@ -10,6 +10,7 @@ tikzjax: true
 
 My teaching philosophy and interests are described in the diagrams below (they take a few seconds to show. Be patient)  
 
+{% raw %}
 <div class="tikzjax">
 \begin{tikzpicture}[
     node distance=3cm and 4cm, % Increase node distance for better spread
@@ -56,7 +57,9 @@ My teaching philosophy and interests are described in the diagrams below (they t
 
 \end{tikzpicture}
 </div>
+{% endraw %}
 
+{% raw %}
 <div class="tikzjax">
 \begin{tikzpicture}[
     node distance=2cm,
@@ -112,3 +115,4 @@ My teaching philosophy and interests are described in the diagrams below (they t
 
 \end{tikzpicture}
 </div>
+{% endraw %}
