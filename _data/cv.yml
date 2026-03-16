@@ -4,7 +4,7 @@
     - name: Full Name
       value: Mario de Lucio
     - name: Place of Birth
-      value: Laredo, Cantabria, Spain
+      value: Laredo, Spain
     - name: Date of Birth
       value: 22nd August 1994
     - name: Languages
@@ -123,6 +123,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+   - year: 2026
+      items:
+        - 2026 Rising Stars in Computational and Data Sciences, The Oden Institute for Computational Engineering and Sciences.
     - year: 2024
       items:
         - Robert J. Melosh Medal Finalist for the Best Student Paper on Computational Mechanics and Finite Element Analysis.
