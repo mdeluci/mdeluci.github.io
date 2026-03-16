@@ -16,4 +16,4 @@ Our model captures short-term transport and long-term absorption, and explores t
 
 Read it here --> [Paper](https://www.sciencedirect.com/science/article/pii/S0378517326001894) 
  
-![Electric](/assets/img/electric.png){: width="750" }
+![Electric](/assets/img/electric.jpg){: width="750" }
