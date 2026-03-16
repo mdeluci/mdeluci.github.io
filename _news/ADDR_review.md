@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From molecule to absorption: a multiscale framework for subcutaneous biologic delivery
+title: Our work on a multiscale framework for subcutaneous biologic delivery is now published in Advanced Drug Delivery Reviews
 date: 2026-03-16 03:00:00-0400
 inline: false
 related_posts: false
