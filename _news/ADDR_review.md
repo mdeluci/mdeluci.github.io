@@ -14,4 +14,4 @@ In this work, we introduce the Drug–Device–Container–Tissue (DDCT) framewo
 
  
  
-![Electric](/assets/img/DDCT.jpg){: width="750" }
+![ADDR_image](/assets/img/DDCT.jpg){: width="750" }
