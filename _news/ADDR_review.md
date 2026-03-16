@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-What happens between the moment a biotherapeutic leaves its primary container and when it finally reaches the bloodstream? 🔬
+What happens between the moment a biotherapeutic leaves its primary container and when it finally reaches the bloodstream?
 
 Excited to share our new review paper, "From Molecule to Absorption: A Multiscale Framework for Subcutaneous Biologic Delivery," just published as an invited paper in Advanced Drug Delivery Reviews as part of the special issue on Patient-Centric Biologic-Device Combination Products.
 
