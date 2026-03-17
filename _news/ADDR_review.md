@@ -12,3 +12,6 @@ Excited to share our new review paper, "From Molecule to Absorption: A Multiscal
 
 In this work, we introduce the Drug-Device-Container-Tissue (DDCT) framework -- a unified multiscale approach tracing the journey of monoclonal antibodies from storage through injection to lymphatic absorption, integrating molecular dynamics, device mechanics, and tissue response as a coupled system.
 
+Read it here --> [Link to paper](https://www.sciencedirect.com/science/article/pii/S0169409X26000918)
+ 
+![ADDR_image](/assets/img/DDCT.jpg){: width="750" }
