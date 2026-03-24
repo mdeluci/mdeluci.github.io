@@ -8,7 +8,7 @@ related_posts: false
 
 What role does electric charge ⚡ play in biotherapeutic transport and absorption?
 
-Excited to share that our work: “Effect of Electric Charge on Biotherapeutic Transport, Binding and Absorption: A Computational Study”, has been published in International Journal of Pharmaceutics
+Excited to share that our work: "Effect of Electric Charge on Biotherapeutic Transport, Binding and Absorption: A Computational Study", has been published in International Journal of Pharmaceutics
 
 We developed a multiphysics computational model using FEniCS Project, combining Nernst–Planck equations with porous media flow, to study how electric charge influences subcutaneous transport, binding, and absorption of monoclonal antibodies.
 
