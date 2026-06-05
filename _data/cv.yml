@@ -37,9 +37,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Advisor - Computational Scientist - CFD
+      institution: Eli Lilly and Company, Indianapolis, IN, USA
+      year: Jun 2026 - Present
+      description:
+        - Developing the next generation of drug delivery devices using high-fidelity multi-physics simulations.
+        
     - title: Post Doctoral Scientist
       institution: Eli Lilly and Company, Indianapolis, IN, USA
-      year: Apr 2025 - Present
+      year: Apr 2025 - Jun 2026
       description:
         - Applied resourceful and innovative thinking to develop and validate computer simulation-based approaches to problems related to various drug delivery modalities. Demonstrate ability to utilize computational modeling to address impactful questions relating to various drug delivery modalities.
         - Leveraged a strong theoretical and technical background in bio transport, continuum mechanics, FEA/CFD modeling, and simulation to develop and execute the modeling of drug delivery modalities such as injections, drug diffusion, and elution using commercial or open-source simulation platforms.
