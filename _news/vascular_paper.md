@@ -10,6 +10,6 @@ Excited to share our new paper "Computational Modeling Unveils the Impact of Tis
 
 In this work, we propose a computational method to compute the VEGF concentration inside the extraembryonic tissue of a growing quail embryo during early vascular development. The evolving vascular geometry is obtained from time-lapse images of a growing quail embryo and represented implicitly via a phase field formulation, which tracks complex topological changes without mesh regeneration, enabling accurate simulation of VEGF transport in the growing extraembryonic tissue. 
 
-  Read it here --> [Link to paper](https://link.springer.com/article/10.1007/s10439-026-04214-6) 
+Read it here --> [Link to paper](https://link.springer.com/article/10.1007/s10439-026-04214-6) 
                                  
-                                   ![vascular_image](/assets/img/vascular_paper.png){: width="750" }
+![vascular_image](/assets/img/vascular_paper.png){: width="750" }
