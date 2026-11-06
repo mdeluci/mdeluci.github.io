@@ -1134,3 +1134,62 @@ ninja-keys::part(ninja-input) {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+
+/*******************************************************************************
+ * Site customizations
+ ******************************************************************************/
+
+// Bootstrap gives tables a fixed dark text color, unreadable in dark mode
+// (news list on the home page, General Information in the CV).
+.table,
+.table th,
+.table td,
+.table-cv,
+.table-cv td {
+  color: var(--global-text-color);
+}
+
+.news .news-title,
+.news a {
+  color: var(--global-theme-color);
+  font-weight: 500;
+}
+
+// Justified text for the introduction on the home page
+.post article > .clearfix p,
+.post .desc {
+  text-align: justify;
+  hyphens: auto;
+}
+
+// Academic accents
+.navbar {
+  border-bottom: 3px solid var(--global-theme-color);
+}
+
+.post-title {
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.4rem;
+}
+
+h2,
+.publications h2.year {
+  color: var(--global-theme-color);
+}
+
+.cv .badge,
+.cv .badge.danger-color-dark {
+  background-color: var(--global-theme-color) !important;
+  color: var(--global-bg-color) !important;
+}
+
+.publications .links .btn {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.publications .links .btn:hover {
+  background-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+}

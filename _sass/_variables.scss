@@ -30,9 +30,17 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// Theme colors
+// Theme colors (academic palette)
+$academic-navy: #1f4e79;
+$academic-navy-light: #8fb8de;
+$academic-burgundy: #8c1d40;
+$academic-gold: #e0b25b;
+$academic-ink: #1f2933;
+$academic-paper: #fcfcfa;
+$academic-night: #161b22;
+$academic-night-card: #1e252e;
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($academic-navy, 0.06);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
